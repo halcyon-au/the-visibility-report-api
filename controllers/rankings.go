@@ -7,6 +7,8 @@ import (
 	"log"
 	"net/http"
 	"time"
+
+	"github.com/labstack/echo/v4"
 )
 
 const ROUTINE_TIME = 1 * time.Minute
@@ -122,4 +124,19 @@ func RankingsRoutine() {
 	// https://api.ooni.io/api/v1/measurements?limit=50&failure=false&domain=www.linkedin.com&probe_asn=12389&test_name=web_connectivity&since=2022-02-18&until=2022-03-21
 	time.AfterFunc(ROUTINE_TIME, RankingsRoutine)
 	log.Printf("Rankings Routine Ended, Sleeping for %sms\n", ROUTINE_TIME.String())
+}
+
+func getRankings() echo.HandlerFunc {
+	return func(c echo.Context) error {
+		scores, err := GetScores()
+		if err != nil {
+			return c.JSON(500, map[string]string{"error": err.Error()})
+		}
+		return c.JSON(200, scores)
+	}
+}
+
+func Rankings(e *echo.Echo) {
+	log.Println("🚀 /api/v1/countries/rankings - GET - Retrieve All Countries Ranked (Lower the number the worse)")
+	e.GET("/api/v1/countries/rankings", getRankings())
 }

@@ -52,21 +52,18 @@ func AddScore(cs CountryScore) (*mongo.UpdateResult, error) {
 	return insertResult, err
 }
 
-func GetScores() error {
+func GetScores() ([]CountryScore, error) {
+	var results []CountryScore
 	fmt.Println(database)
 	scoreCollection := database.Collection("scores")
 	opts := options.Find()
 	opts.SetSort(bson.D{{Key: "score", Value: 1}})
 	cursor, err := scoreCollection.Find(context.TODO(), bson.D{}, opts)
 	if err != nil {
-		return fmt.Errorf("failed to retrieve scores - %s", err.Error())
+		return results, fmt.Errorf("failed to retrieve scores - %s", err.Error())
 	}
-	var results []CountryScore
 	if err = cursor.All(context.TODO(), &results); err != nil {
-		return fmt.Errorf("failed to retrieve scores - %s", err.Error())
+		return results, fmt.Errorf("failed to retrieve scores - %s", err.Error())
 	}
-	for _, result := range results {
-		fmt.Println(result)
-	}
-	return nil
+	return results, nil
 }

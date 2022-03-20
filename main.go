@@ -16,5 +16,6 @@ func main() {
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
 	controllers.HeartBeat(e)
+	controllers.Rankings(e)
 	e.Logger.Fatal(e.Start(":1323"))
 }
