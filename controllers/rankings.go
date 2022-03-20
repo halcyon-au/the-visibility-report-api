@@ -108,13 +108,16 @@ func RankingsRoutine() {
 	for _, country := range countries.Countries {
 		go processCountry(country, scores)
 	}
-	scorearray := []CountryScore{}
 	for range countries.Countries {
 		log.Println("Waiting On Country Processing Routine...")
-		tmp := <-scores
-		scorearray = append(scorearray, tmp)
+		score := <-scores
+		go func() {
+			_, err := AddScore(score)
+			if err != nil {
+				panic(err)
+			}
+		}()
 	}
-	log.Println(scorearray)
 	// Website Blocked Stats
 	// https://api.ooni.io/api/v1/measurements?limit=50&failure=false&domain=www.linkedin.com&probe_asn=12389&test_name=web_connectivity&since=2022-02-18&until=2022-03-21
 	time.AfterFunc(ROUTINE_TIME, RankingsRoutine)

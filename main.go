@@ -8,6 +8,9 @@ import (
 )
 
 func main() {
+	if err := controllers.IntializeDatabase(); err != nil {
+		panic(err)
+	}
 	go controllers.RankingsRoutine()
 	e := echo.New()
 	e.Use(middleware.Logger())

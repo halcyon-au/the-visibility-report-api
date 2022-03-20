@@ -8,3 +8,13 @@ services:
     command: [ "./init.sh" ]
     ports:
       - "1323:1323"
+    environment:
+      - mongousername=mongoadmin
+      - mongopassword=secret
+    depends_on:
+      - db
+  db:
+    image: mongo
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=mongoadmin
+      - MONGO_INITDB_ROOT_PASSWORD=secret
