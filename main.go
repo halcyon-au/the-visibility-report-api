@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	controllers.RankingsRoutine()
+	go controllers.RankingsRoutine()
 	e := echo.New()
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
