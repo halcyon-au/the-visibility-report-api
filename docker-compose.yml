@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  backend:
+    build:
+      context: .
+    volumes:
+      - '.:/app'
+    command: [ "./init.sh" ]
+    ports:
+      - "1323:1323"
