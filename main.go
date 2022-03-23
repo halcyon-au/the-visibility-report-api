@@ -45,7 +45,7 @@ func main() {
 	if err := controllers.IntializeDatabase(); err != nil {
 		panic(err)
 	}
-	// go controllers.RankingsRoutine()
+	go controllers.RankingsRoutine()
 	e := echo.New()
 	e.Use(middleware.Logger())
 	e.Use(middleware.Recover())
