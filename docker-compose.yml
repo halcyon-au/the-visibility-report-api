@@ -11,6 +11,7 @@ services:
     environment:
       - mongousername=mongoadmin
       - mongopassword=secret
+      - mode=local
     depends_on:
       - db
   db:
