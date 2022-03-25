@@ -56,5 +56,6 @@ func main() {
 	}))
 	controllers.HeartBeat(e)
 	controllers.Rankings(e)
+	controllers.BlockedWebsites(e)
 	e.Logger.Fatal(e.Start(":1323"))
 }
