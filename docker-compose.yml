@@ -5,7 +5,7 @@ services:
       context: .
     volumes:
       - '.:/app'
-    command: [ "./init.sh" ]
+    entrypoint: [ "sh","./init.sh" ]
     ports:
       - "1323:1323"
     environment:

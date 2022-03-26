@@ -1,0 +1,81 @@
+{
+	"info": {
+		"_postman_id": "3ebab33e-2234-4ffa-8532-5bcfcdac5f3d",
+		"name": "The Visibility Report",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Heart Beat",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/hb",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"hb"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Blocked Sites by Country",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/api/v1/blockedwebsites/:countryname",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"api",
+						"v1",
+						"blockedwebsites",
+						":countryname"
+					],
+					"variable": [
+						{
+							"key": "countryname",
+							"value": "Australia"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "baseUrl",
+			"value": "http://localhost:1323",
+			"type": "string"
+		}
+	]
+}
