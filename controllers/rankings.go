@@ -36,6 +36,11 @@ type CountryScore struct {
 	Ranking         int
 	BlockedWebsites []string
 }
+type CountryNoBlockedScore struct {
+	CountryName string
+	Score       int
+	Ranking     int
+}
 type WebsiteNetwork struct {
 	Count     int
 	Probe_asn int
@@ -171,7 +176,20 @@ func getRankings() echo.HandlerFunc {
 	}
 }
 
+func getRanking() echo.HandlerFunc {
+	return func(c echo.Context) error {
+		cName := c.Param("country")
+		score, err := GetScore(cName)
+		if err != nil {
+			return c.JSON(500, map[string]string{"error": err.Error()})
+		}
+		return c.JSON(200, score)
+	}
+}
+
 func Rankings(e *echo.Echo) {
 	log.Println("🚀 /api/v1/countries/rankings - GET - Retrieve All Countries Ranked (Lower the number the worse)")
+	log.Println("🚀 /api/v1/countries/{country: string} - GET - Retrieve Country Details")
 	e.GET("/api/v1/countries/rankings", getRankings())
+	e.GET("/api/v1/countries/rankings/:country", getRanking())
 }
