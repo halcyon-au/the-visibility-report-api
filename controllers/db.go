@@ -85,8 +85,8 @@ func AddScore(cs CountryScore) (*mongo.UpdateResult, error) {
 	return insertResult, err
 }
 
-func GetScores() ([]CountryScore, error) {
-	var results []CountryScore
+func GetScores() ([]CountryNoBlockedScore, error) {
+	var results []CountryNoBlockedScore
 	log.Println(database)
 	scoreCollection := database.Collection("scores")
 	opts := options.Find()
@@ -102,6 +102,29 @@ func GetScores() ([]CountryScore, error) {
 		return results[i].Ranking > results[j].Ranking
 	})
 	return results, nil
+}
+
+func GetScore(countryname string) (CountryScore, error) { // todo add field for recent so we can sort by how recent
+	var result CountryScore
+	log.Println(database)
+	blocks, err := GetBlocks(countryname)
+	if err != nil {
+		log.Printf("failed to retrieve blocked website so cant fetch individual score for: %s, error: %s\n", countryname, err.Error())
+		return result, err
+	}
+	scoreCollection := database.Collection("scores")
+	opts := options.FindOne()
+	if err = scoreCollection.FindOne(context.TODO(), bson.D{{Key: "countryname", Value: strings.ToLower(countryname)}}, opts).Decode(&result); err != nil {
+		log.Printf("failed to retrieve country: %s, err: %s\n", countryname, err.Error())
+		return result, err
+	}
+	justBlockedNames := []string{}
+	for _, block := range blocks {
+		justBlockedNames = append(justBlockedNames, block.Website)
+	}
+	result.BlockedWebsites = justBlockedNames
+	result.CountryName = strings.Title(result.CountryName)
+	return result, nil
 }
 
 func GetBlocks(countryname string) ([]BlockedWebsite, error) { // todo add field for recent so we can sort by how recent
