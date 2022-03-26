@@ -6,6 +6,8 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"sort"
+	"strings"
 	"time"
 
 	"github.com/labstack/echo/v4"
@@ -18,6 +20,10 @@ type Country struct {
 	Count   int
 	Name    string
 }
+type BlockedWebsite struct {
+	CountryName string
+	Website     string
+}
 type CountriesResponse struct {
 	Countries []Country
 }
@@ -25,8 +31,10 @@ type WebsiteNetworksResponse struct {
 	Results []map[string]interface{}
 }
 type CountryScore struct {
-	CountryName string
-	Score       int
+	CountryName     string
+	Score           int
+	Ranking         int
+	BlockedWebsites []string
 }
 type WebsiteNetwork struct {
 	Count     int
@@ -95,40 +103,67 @@ func processCountry(country Country, scores chan CountryScore) {
 	var tmpStruct2 map[string]interface{}
 	json.Unmarshal(body, &tmpStruct2)
 	score := tmpStruct2["metadata"].(map[string]interface{})["total_count"].(float64) * -1 // the more blocked websites the lower the score
+	// TODO CRAWL "next_url": "https://api.ooni.io/api/_/website_urls?limit=10&offset=10&probe_asn=12389&probe_cc=RU", UNTIL EMPTY
+	blocked_websites_struct := tmpStruct2["results"].([]interface{})
+	blocked_websites := []string{}
+	for _, strut := range blocked_websites_struct {
+		blocked_websites = append(blocked_websites, strut.(map[string]interface{})["input"].(string))
+	}
 	log.Printf("Country Worker Finished For Country: %s\n", country.Name)
-	scores <- CountryScore{CountryName: country.Name, Score: int(score)}
+	scores <- CountryScore{CountryName: country.Name, Score: int(score), BlockedWebsites: blocked_websites}
 }
 
 // Every X Hours Recalculate Rankings
 // And save to db
 func RankingsRoutine() {
+	start := time.Now()
 	log.Println("Rankings Routine Begun")
 	// Country Website Blockeds
 	// https://api.ooni.io/api/_/website_urls?probe_cc=RU&probe_asn=12389
 	countries := fetchCountries()
 	scores := make(chan CountryScore)
+	scoreArr := []CountryScore{}
 	for _, country := range countries.Countries {
 		go processCountry(country, scores)
 	}
 	for range countries.Countries {
 		log.Println("Waiting On Country Processing Routine...")
 		score := <-scores
-		go func() {
+		scoreArr = append(scoreArr, score)
+	}
+	sort.Slice(scoreArr, func(i, j int) bool {
+		return scoreArr[i].Score < scoreArr[j].Score
+	})
+	for i, score := range scoreArr {
+		cpy := score
+		cpy.Ranking = len(scoreArr) - i
+		go func(score CountryScore, scores chan CountryScore) {
+			log.Println(score)
 			_, err := AddScore(score)
 			if err != nil {
 				panic(err)
 			}
-		}()
+			scores <- score
+		}(cpy, scores)
+	}
+	for range scoreArr {
+		log.Println("Waiting On Ranking/Add To Database...")
+		<-scores
 	}
 	// Website Blocked Stats
 	// https://api.ooni.io/api/v1/measurements?limit=50&failure=false&domain=www.linkedin.com&probe_asn=12389&test_name=web_connectivity&since=2022-02-18&until=2022-03-21
 	time.AfterFunc(ROUTINE_TIME, RankingsRoutine)
-	log.Printf("Rankings Routine Ended, Sleeping for %sms\n", ROUTINE_TIME.String())
+	t := time.Now()
+	elapsed := t.Sub(start)
+	log.Printf("Rankings Routine Ended, It Took %s, Sleeping for %sms\n", elapsed.String(), ROUTINE_TIME.String())
 }
 
 func getRankings() echo.HandlerFunc {
 	return func(c echo.Context) error {
 		scores, err := GetScores()
+		for i, _ := range scores {
+			scores[i].CountryName = strings.Title(scores[i].CountryName)
+		}
 		if err != nil {
 			return c.JSON(500, map[string]string{"error": err.Error()})
 		}
