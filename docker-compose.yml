@@ -5,7 +5,7 @@ services:
       context: .
     volumes:
       - '.:/app'
-    entrypoint: [ "sh","./init.sh" ]
+    entrypoint: [ "sh", "./init.sh" ]
     ports:
       - "1323:1323"
     environment:
@@ -17,7 +17,10 @@ services:
   db:
     image: mongo
     volumes:
-      - ./mongodb:/data/db
+      - api_db_data:/data/db
     environment:
       - MONGO_INITDB_ROOT_USERNAME=mongoadmin
       - MONGO_INITDB_ROOT_PASSWORD=secret
+volumes:
+  api_db_data:
+    driver: local
