@@ -13,3 +13,5 @@ def update_db(results):
     for country in results:
         insert = countries.replace_one({ "_id": country["_id"] }, country, upsert=True)
         print(insert.upserted_id)
+
+def get_country(results)
