@@ -5,6 +5,8 @@ import (
 	"fmt"
 	"io"
 	"log"
+	"math"
+	"math/rand"
 	"net/http"
 	"net/url"
 	"sort"
@@ -60,8 +62,6 @@ type WebsiteStatsResponse struct {
 	Results []WebsiteStat
 }
 
-var COMMON_WEBSITES = []string{"www.youtube.com", "www.google.com", "www.facebook.com", "www.twitter.com", "www.instagram.com", "www.linkedin.com"}
-
 // TODO: Exponential Backoff with Circuit Breaker pattern
 func fetchCountries() CountriesResponse {
 	log.Println("Fetching Countries")
@@ -82,7 +82,7 @@ func fetchCountries() CountriesResponse {
 
 // TODO switch to measurements API: https://api.ooni.io/api/v1/measurements?limit=50&failure=false&probe_cc=RU&domain=https:%2F%2Fwww.youtube.com%2F&probe_asn=12389&test_name=web_connectivity&since=2022-02-25&until=2022-03-28
 // it is a better endpoint zzz
-func processWebsite(wsite string, country_cc string, asn float64) bool {
+func processWebsite(wsite string, country_cc string, asn float64, attempt int) bool {
 	tmpURL := url.URL{
 		Scheme: "https",
 		Host:   "api.ooni.io",
@@ -96,6 +96,15 @@ func processWebsite(wsite string, country_cc string, asn float64) bool {
 	resp, err := http.Get(tmpURL.String())
 	if err != nil {
 		log.Println("failed to process website ", wsite, err)
+		if attempt != 15 { // giveup after 15 attempts.
+			max := math.Min(1000, 5*math.Pow(2, float64(attempt)))
+			r := math.Floor(rand.Float64() * (max))
+			log.Printf("Attempting website: %s for country: %s again in %v, attempt: %d\n", wsite, country_cc, r, attempt)
+			time.Sleep(time.Duration(r))
+			return processWebsite(wsite, country_cc, asn, attempt+1)
+		}
+		log.Printf("failed to process website: %s for country: %s in 15 attempts, just going to say it is not blocked\n", wsite, country_cc)
+		return false
 	}
 	defer resp.Body.Close()
 	body, err := io.ReadAll(resp.Body)
@@ -124,7 +133,7 @@ func processWebsite(wsite string, country_cc string, asn float64) bool {
 }
 
 // TODO: Exponential Backoff with Circuit Breaker pattern
-func processCountry(country Country, scores chan CountryScore) {
+func processCountry(country Country, scores chan CountryScore, COMMON_WEBSITES []string) {
 	defer func() {
 		if r := recover(); r != nil {
 			log.Printf("error in processing country: %s, panic error: %v\n", country.Name, r)
@@ -169,11 +178,11 @@ func processCountry(country Country, scores chan CountryScore) {
 	score := tmpStruct2["metadata"].(map[string]interface{})["total_count"].(float64) * -1 // the more blocked websites the lower the score
 	common_webites := map[string]bool{}
 	for _, c := range COMMON_WEBSITES {
-		is_blocked := processWebsite(fmt.Sprintf("http://%s/", c), country.Alpha_2, asn)
+		is_blocked := processWebsite(fmt.Sprintf("http://%s/", strings.Trim(c, "\r")), country.Alpha_2, asn, 1)
 		if !is_blocked {
-			is_blocked = processWebsite(fmt.Sprintf("https://%s/", c), country.Alpha_2, asn)
+			is_blocked = processWebsite(fmt.Sprintf("https://%s/", strings.Trim(c, "\r")), country.Alpha_2, asn, 1)
 		}
-		common_webites[c] = is_blocked
+		common_webites[strings.Trim(c, "\r")] = is_blocked
 	}
 	log.Printf("Country Worker Finished For Country: %s\n", country.Name)
 	scores <- CountryScore{CountryName: country.Name, Score: int(score), CommonBlocked: common_webites}
@@ -182,6 +191,8 @@ func processCountry(country Country, scores chan CountryScore) {
 // Every X Hours Recalculate Rankings
 // And save to db
 func RankingsRoutine() {
+	log.Println("Reading common_websites from csv file")
+	common_websites := strings.Split(readTopWebsitesCSV("static/topwebsites.csv"), "\n")
 	start := time.Now()
 	log.Println("Rankings Routine Begun")
 	// Country Website Blockeds
@@ -190,7 +201,7 @@ func RankingsRoutine() {
 	scores := make(chan CountryScore)
 	scoreArr := []CountryScore{}
 	for _, country := range countries.Countries {
-		go processCountry(country, scores)
+		go processCountry(country, scores, common_websites)
 	}
 	for range countries.Countries {
 		log.Println("Waiting On Country Processing Routine...")
