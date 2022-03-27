@@ -6,14 +6,16 @@ import (
 	"io"
 	"log"
 	"net/http"
+	"net/url"
 	"sort"
+	"strconv"
 	"strings"
 	"time"
 
 	"github.com/labstack/echo/v4"
 )
 
-const ROUTINE_TIME = 1 * time.Minute
+const ROUTINE_TIME = 24 * time.Hour // EVERY DAY WE DO THIS BECAUSE IT OWNS THE OONI API
 
 type Country struct {
 	Alpha_2 string
@@ -21,8 +23,10 @@ type Country struct {
 	Name    string
 }
 type BlockedWebsite struct {
-	CountryName string
-	Website     string
+	CountryName   string
+	Website       string
+	Blocked       bool
+	LastUpdatedAt int64
 }
 type CountriesResponse struct {
 	Countries []Country
@@ -31,10 +35,10 @@ type WebsiteNetworksResponse struct {
 	Results []map[string]interface{}
 }
 type CountryScore struct {
-	CountryName     string
-	Score           int
-	Ranking         int
-	BlockedWebsites []string
+	CountryName   string
+	Score         int
+	Ranking       int
+	CommonBlocked map[string]bool
 }
 type CountryNoBlockedScore struct {
 	CountryName string
@@ -45,6 +49,18 @@ type WebsiteNetwork struct {
 	Count     int
 	Probe_asn int
 }
+type WebsiteStat struct {
+	Anomaly_count   int
+	Confirmed_count int
+	Failure_count   int
+	Test_day        string
+	Total_count     int
+}
+type WebsiteStatsResponse struct {
+	Results []WebsiteStat
+}
+
+var COMMON_WEBSITES = []string{"www.youtube.com", "www.google.com", "www.facebook.com", "www.twitter.com", "www.instagram.com", "www.linkedin.com"}
 
 // TODO: Exponential Backoff with Circuit Breaker pattern
 func fetchCountries() CountriesResponse {
@@ -62,6 +78,49 @@ func fetchCountries() CountriesResponse {
 	json.Unmarshal(body, &countries)
 	log.Println(countries)
 	return countries
+}
+
+// TODO switch to measurements API: https://api.ooni.io/api/v1/measurements?limit=50&failure=false&probe_cc=RU&domain=https:%2F%2Fwww.youtube.com%2F&probe_asn=12389&test_name=web_connectivity&since=2022-02-25&until=2022-03-28
+// it is a better endpoint zzz
+func processWebsite(wsite string, country_cc string, asn float64) bool {
+	tmpURL := url.URL{
+		Scheme: "https",
+		Host:   "api.ooni.io",
+		Path:   "api/_/website_stats",
+	}
+	q := tmpURL.Query()
+	q.Add("probe_cc", country_cc)
+	q.Add("probe_asn", strconv.Itoa(int(asn)))
+	q.Add("input", wsite)
+	tmpURL.RawQuery = q.Encode()
+	resp, err := http.Get(tmpURL.String())
+	if err != nil {
+		log.Println("failed to process website ", wsite, err)
+	}
+	defer resp.Body.Close()
+	body, err := io.ReadAll(resp.Body)
+	if err != nil {
+		log.Println("failed to read country body ", err)
+	}
+	var tmpStruct3 map[string]interface{}
+	json.Unmarshal(body, &tmpStruct3)
+	average := 0.0
+	anomaly_average := 0.0
+	temp, ok := tmpStruct3["results"].([]interface{})
+	if !ok {
+		return false
+	}
+	for _, stat := range temp {
+		average += (float64(stat.(map[string]interface{})["confirmed_count"].(float64)) / float64(stat.(map[string]interface{})["total_count"].(float64)))
+		anomaly_average += (float64(stat.(map[string]interface{})["anomaly_count"].(float64)) / float64(stat.(map[string]interface{})["total_count"].(float64)))
+	}
+	average = (average / float64(len(tmpStruct3["results"].([]interface{})))) * 100
+	anomaly_average = (anomaly_average / float64(len(tmpStruct3["results"].([]interface{})))) * 100
+	is_blocked := false
+	if average >= 50.0 || anomaly_average >= 70.0 { // 50% confidence its actually blocked
+		is_blocked = true
+	}
+	return is_blocked
 }
 
 // TODO: Exponential Backoff with Circuit Breaker pattern
@@ -93,10 +152,10 @@ func processCountry(country Country, scores chan CountryScore) {
 	}
 	asn := results[0]["probe_asn"].(float64) // results[0].(WebsiteNetwork) // results[0].Probe_asn
 
-	url := fmt.Sprintf("https://api.ooni.io/api/_/website_urls?probe_cc=%s&probe_asn=%d", country.Alpha_2, int(asn))
-	log.Println(url)
-	log.Println("attempting to fetch: ", url)
-	resp, err = http.Get(url)
+	u := fmt.Sprintf("https://api.ooni.io/api/_/website_urls?limit=%s&offset=0&probe_cc=%s&probe_asn=%d" /* strconv.FormatUint(math.MaxUint64, 10) */, "10", country.Alpha_2, int(asn))
+	log.Println(u)
+	log.Println("attempting to fetch: ", u)
+	resp, err = http.Get(u)
 	if err != nil {
 		log.Println("failed to process country ", country.Name, err)
 	}
@@ -108,14 +167,16 @@ func processCountry(country Country, scores chan CountryScore) {
 	var tmpStruct2 map[string]interface{}
 	json.Unmarshal(body, &tmpStruct2)
 	score := tmpStruct2["metadata"].(map[string]interface{})["total_count"].(float64) * -1 // the more blocked websites the lower the score
-	// TODO CRAWL "next_url": "https://api.ooni.io/api/_/website_urls?limit=10&offset=10&probe_asn=12389&probe_cc=RU", UNTIL EMPTY
-	blocked_websites_struct := tmpStruct2["results"].([]interface{})
-	blocked_websites := []string{}
-	for _, strut := range blocked_websites_struct {
-		blocked_websites = append(blocked_websites, strut.(map[string]interface{})["input"].(string))
+	common_webites := map[string]bool{}
+	for _, c := range COMMON_WEBSITES {
+		is_blocked := processWebsite(fmt.Sprintf("http://%s/", c), country.Alpha_2, asn)
+		if !is_blocked {
+			is_blocked = processWebsite(fmt.Sprintf("https://%s/", c), country.Alpha_2, asn)
+		}
+		common_webites[c] = is_blocked
 	}
 	log.Printf("Country Worker Finished For Country: %s\n", country.Name)
-	scores <- CountryScore{CountryName: country.Name, Score: int(score), BlockedWebsites: blocked_websites}
+	scores <- CountryScore{CountryName: country.Name, Score: int(score), CommonBlocked: common_webites}
 }
 
 // Every X Hours Recalculate Rankings
@@ -143,7 +204,6 @@ func RankingsRoutine() {
 		cpy := score
 		cpy.Ranking = len(scoreArr) - i
 		go func(score CountryScore, scores chan CountryScore) {
-			log.Println(score)
 			_, err := AddScore(score)
 			if err != nil {
 				panic(err)

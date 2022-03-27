@@ -61,7 +61,6 @@ func AddWebsiteBlock(country string, block string, done chan int) {
 // PUT operation i.e replace if it exists
 func AddScore(cs CountryScore) (*mongo.UpdateResult, error) {
 	log.Println("Adding to scores collection")
-	doneChannel := make(chan int)
 	scoreCollection := database.Collection("scores")
 	opts := options.Replace().SetUpsert(true)
 	insertResult, err := scoreCollection.ReplaceOne(context.TODO(), bson.M{
@@ -75,12 +74,30 @@ func AddScore(cs CountryScore) (*mongo.UpdateResult, error) {
 		log.Println(err)
 		return insertResult, err
 	}
-	for _, block := range cs.BlockedWebsites {
-		go AddWebsiteBlock(cs.CountryName, block, doneChannel)
-	}
-	for range cs.BlockedWebsites {
-		log.Printf("waiting on insertion of website block for country %s\n", cs.CountryName)
-		<-doneChannel
+	blockCollection := database.Collection("blockedwebsites")
+	if len(cs.CommonBlocked) > 0 {
+		var operations []mongo.WriteModel
+		for website, is_blocked := range cs.CommonBlocked { // we want to add async, but i dont think mongo can handle 2000 * 52 connections
+			operation := mongo.NewReplaceOneModel()
+			operation.SetFilter(bson.D{
+				{Key: "countryname", Value: strings.ToLower(cs.CountryName)},
+				{Key: "website", Value: strings.ToLower(website)},
+			})
+			operation.SetReplacement(bson.D{
+				{Key: "countryname", Value: strings.ToLower(cs.CountryName)},
+				{Key: "website", Value: strings.ToLower(website)},
+				{Key: "blocked", Value: is_blocked},
+				{Key: "lastupdatedat", Value: time.Now().Unix()},
+			})
+			operation.SetUpsert(true)
+			operations = append(operations, operation)
+		}
+		bulkOption := options.BulkWriteOptions{}
+		bulkOption.SetOrdered(true)
+		_, err = blockCollection.BulkWrite(context.TODO(), operations, &bulkOption)
+		if err != nil {
+			log.Printf("failed to bulk upsert blocks for country %s, error: %s\n", cs.CountryName, err.Error())
+		}
 	}
 	return insertResult, err
 }
@@ -118,11 +135,11 @@ func GetScore(countryname string) (CountryScore, error) { // todo add field for 
 		log.Printf("failed to retrieve country: %s, err: %s\n", countryname, err.Error())
 		return result, err
 	}
-	justBlockedNames := []string{}
+	commonBlocked := map[string]bool{}
 	for _, block := range blocks {
-		justBlockedNames = append(justBlockedNames, block.Website)
+		commonBlocked[strings.Title(block.Website)] = block.Blocked
 	}
-	result.BlockedWebsites = justBlockedNames
+	result.CommonBlocked = commonBlocked
 	result.CountryName = strings.Title(result.CountryName)
 	return result, nil
 }
@@ -132,6 +149,7 @@ func GetBlocks(countryname string) ([]BlockedWebsite, error) { // todo add field
 	log.Println(database)
 	blockCollection := database.Collection("blockedwebsites")
 	opts := options.Find()
+	// {Key: "blocked", Value: true}
 	cursor, err := blockCollection.Find(context.TODO(), bson.D{{Key: "countryname", Value: strings.ToLower(countryname)}}, opts)
 	if err != nil {
 		return results, fmt.Errorf("failed to retrieve blocked websites - %s", err.Error())
