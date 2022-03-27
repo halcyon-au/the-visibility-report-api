@@ -137,7 +137,7 @@ func GetScore(countryname string) (CountryScore, error) { // todo add field for 
 	}
 	commonBlocked := map[string]bool{}
 	for _, block := range blocks {
-		commonBlocked[strings.Title(block.Website)] = block.Blocked
+		commonBlocked[block.Website] = block.Blocked
 	}
 	result.CommonBlocked = commonBlocked
 	result.CountryName = strings.Title(result.CountryName)
