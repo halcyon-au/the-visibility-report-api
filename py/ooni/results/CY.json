@@ -1,0 +1,16 @@
+{
+    "_id": "CY",
+    "country": {
+        "name": "Cyprus",
+        "alpha2Code": "CY",
+        "alpha3Code": "CYP",
+        "population": 1207361,
+        "flags": {
+            "svg": "https://flagcdn.com/cy.svg",
+            "png": "https://flagcdn.com/w320/cy.png"
+        },
+        "independent": false,
+        "asnProbed": 197648
+    },
+    "sites": []
+}

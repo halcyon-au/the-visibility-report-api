@@ -1,0 +1,16 @@
+{
+    "_id": "MT",
+    "country": {
+        "name": "Malta",
+        "alpha2Code": "MT",
+        "alpha3Code": "MLT",
+        "population": 525285,
+        "flags": {
+            "svg": "https://flagcdn.com/mt.svg",
+            "png": "https://flagcdn.com/w320/mt.png"
+        },
+        "independent": false,
+        "asnProbed": 15735
+    },
+    "sites": []
+}

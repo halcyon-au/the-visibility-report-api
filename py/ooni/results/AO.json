@@ -1,0 +1,16 @@
+{
+    "_id": "AO",
+    "country": {
+        "name": "Angola",
+        "alpha2Code": "AO",
+        "alpha3Code": "AGO",
+        "population": 32866268,
+        "flags": {
+            "svg": "https://flagcdn.com/ao.svg",
+            "png": "https://flagcdn.com/w320/ao.png"
+        },
+        "independent": false,
+        "asnProbed": 37645
+    },
+    "sites": []
+}

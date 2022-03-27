@@ -1,0 +1,16 @@
+{
+    "_id": "KG",
+    "country": {
+        "name": "Kyrgyzstan",
+        "alpha2Code": "KG",
+        "alpha3Code": "KGZ",
+        "population": 6591600,
+        "flags": {
+            "svg": "https://flagcdn.com/kg.svg",
+            "png": "https://flagcdn.com/w320/kg.png"
+        },
+        "independent": false,
+        "asnProbed": 50251
+    },
+    "sites": []
+}

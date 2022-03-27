@@ -1,0 +1,16 @@
+{
+    "_id": "BS",
+    "country": {
+        "name": "Bahamas",
+        "alpha2Code": "BS",
+        "alpha3Code": "BHS",
+        "population": 393248,
+        "flags": {
+            "svg": "https://flagcdn.com/bs.svg",
+            "png": "https://flagcdn.com/w320/bs.png"
+        },
+        "independent": false,
+        "asnProbed": 9009
+    },
+    "sites": []
+}

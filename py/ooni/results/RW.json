@@ -1,0 +1,16 @@
+{
+    "_id": "RW",
+    "country": {
+        "name": "Rwanda",
+        "alpha2Code": "RW",
+        "alpha3Code": "RWA",
+        "population": 12952209,
+        "flags": {
+            "svg": "https://flagcdn.com/rw.svg",
+            "png": "https://flagcdn.com/w320/rw.png"
+        },
+        "independent": false,
+        "asnProbed": 37006
+    },
+    "sites": []
+}

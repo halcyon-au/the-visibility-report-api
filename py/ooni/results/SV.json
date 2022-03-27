@@ -1,0 +1,16 @@
+{
+    "_id": "SV",
+    "country": {
+        "name": "El Salvador",
+        "alpha2Code": "SV",
+        "alpha3Code": "SLV",
+        "population": 6486201,
+        "flags": {
+            "svg": "https://flagcdn.com/sv.svg",
+            "png": "https://flagcdn.com/w320/sv.png"
+        },
+        "independent": false,
+        "asnProbed": 27773
+    },
+    "sites": []
+}

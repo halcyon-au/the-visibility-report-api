@@ -1,0 +1,16 @@
+{
+    "_id": "LR",
+    "country": {
+        "name": "Liberia",
+        "alpha2Code": "LR",
+        "alpha3Code": "LBR",
+        "population": 5057677,
+        "flags": {
+            "svg": "https://flagcdn.com/lr.svg",
+            "png": "https://flagcdn.com/w320/lr.png"
+        },
+        "independent": false,
+        "asnProbed": 37410
+    },
+    "sites": []
+}

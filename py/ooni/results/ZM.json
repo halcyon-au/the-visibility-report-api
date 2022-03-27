@@ -1,0 +1,16 @@
+{
+    "_id": "ZM",
+    "country": {
+        "name": "Zambia",
+        "alpha2Code": "ZM",
+        "alpha3Code": "ZMB",
+        "population": 18383956,
+        "flags": {
+            "svg": "https://flagcdn.com/zm.svg",
+            "png": "https://flagcdn.com/w320/zm.png"
+        },
+        "independent": false,
+        "asnProbed": 37154
+    },
+    "sites": []
+}

@@ -1,0 +1,77 @@
+{
+    "_id": "BF",
+    "country": {
+        "name": "Burkina Faso",
+        "alpha2Code": "BF",
+        "alpha3Code": "BFA",
+        "population": 20903278,
+        "flags": {
+            "svg": "https://flagcdn.com/bf.svg",
+            "png": "https://flagcdn.com/w320/bf.png"
+        },
+        "independent": false,
+        "asnProbed": 37721
+    },
+    "sites": [
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T09:59:10.496896+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 217
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T09:59:10.496896+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 215
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T09:59:10.496896+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 214
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T09:59:10.496896+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 213
+            }
+        },
+        {
+            "site": "https://www.reddit.com/",
+            "lastChecked": "2022-03-27T09:59:10.496896+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        }
+    ]
+}

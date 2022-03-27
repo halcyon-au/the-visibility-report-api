@@ -1,0 +1,16 @@
+{
+    "_id": "LV",
+    "country": {
+        "name": "Latvia",
+        "alpha2Code": "LV",
+        "alpha3Code": "LVA",
+        "population": 1901548,
+        "flags": {
+            "svg": "https://flagcdn.com/lv.svg",
+            "png": "https://flagcdn.com/w320/lv.png"
+        },
+        "independent": false,
+        "asnProbed": 43513
+    },
+    "sites": []
+}

@@ -1,0 +1,65 @@
+{
+    "_id": "BN",
+    "country": {
+        "name": "Brunei Darussalam",
+        "alpha2Code": "BN",
+        "alpha3Code": "BRN",
+        "population": 437483,
+        "flags": {
+            "svg": "https://flagcdn.com/bn.svg",
+            "png": "https://flagcdn.com/w320/bn.png"
+        },
+        "independent": false,
+        "asnProbed": 10094
+    },
+    "sites": [
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T09:59:01.606270+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 81
+            }
+        },
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T09:59:01.606270+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 80
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T09:59:01.606270+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 80
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T09:59:01.606270+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 79
+            }
+        }
+    ]
+}

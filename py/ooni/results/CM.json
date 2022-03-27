@@ -1,0 +1,185 @@
+{
+    "_id": "CM",
+    "country": {
+        "name": "Cameroon",
+        "alpha2Code": "CM",
+        "alpha3Code": "CMR",
+        "population": 26545864,
+        "flags": {
+            "svg": "https://flagcdn.com/cm.svg",
+            "png": "https://flagcdn.com/w320/cm.png"
+        },
+        "independent": false,
+        "asnProbed": 15964
+    },
+    "sites": [
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 401
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 397
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 7,
+                "confirmed_count": 0,
+                "failure_count": 3,
+                "total_count": 392
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 392
+            }
+        },
+        {
+            "site": "https://www.tiktok.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 98
+            }
+        },
+        {
+            "site": "https://www.reddit.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 92
+            }
+        },
+        {
+            "site": "https://signal.org/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 91
+            }
+        },
+        {
+            "site": "https://www.viber.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 4,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 89
+            }
+        },
+        {
+            "site": "https://telegram.org/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 88
+            }
+        },
+        {
+            "site": "https://vimeo.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 87
+            }
+        },
+        {
+            "site": "https://www.snapchat.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 87
+            }
+        },
+        {
+            "site": "https://www.whatsapp.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 87
+            }
+        },
+        {
+            "site": "https://www.wechat.com/",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 85
+            }
+        },
+        {
+            "site": "https://www.facebook.com/RTNews",
+            "lastChecked": "2022-03-27T09:59:23.797565+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        }
+    ]
+}

@@ -1,0 +1,65 @@
+{
+    "_id": "UY",
+    "country": {
+        "name": "Uruguay",
+        "alpha2Code": "UY",
+        "alpha3Code": "URY",
+        "population": 3473727,
+        "flags": {
+            "svg": "https://flagcdn.com/uy.svg",
+            "png": "https://flagcdn.com/w320/uy.png"
+        },
+        "independent": false,
+        "asnProbed": 6057
+    },
+    "sites": [
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T10:09:47.568741+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 123
+            }
+        },
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T10:09:47.568741+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 122
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:09:47.568741+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 120
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:09:47.568741+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 120
+            }
+        }
+    ]
+}

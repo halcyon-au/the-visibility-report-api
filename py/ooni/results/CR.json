@@ -1,0 +1,65 @@
+{
+    "_id": "CR",
+    "country": {
+        "name": "Costa Rica",
+        "alpha2Code": "CR",
+        "alpha3Code": "CRI",
+        "population": 5094114,
+        "flags": {
+            "svg": "https://flagcdn.com/cr.svg",
+            "png": "https://flagcdn.com/w320/cr.png"
+        },
+        "independent": false,
+        "asnProbed": 52423
+    },
+    "sites": [
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T10:00:02.438843+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 117
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T10:00:02.438843+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 117
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:00:02.438843+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 114
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:00:02.438843+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 113
+            }
+        }
+    ]
+}

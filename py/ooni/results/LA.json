@@ -1,0 +1,16 @@
+{
+    "_id": "LA",
+    "country": {
+        "name": "Lao People's Democratic Republic",
+        "alpha2Code": "LA",
+        "alpha3Code": "LAO",
+        "population": 7275556,
+        "flags": {
+            "svg": "https://flagcdn.com/la.svg",
+            "png": "https://flagcdn.com/w320/la.png"
+        },
+        "independent": false,
+        "asnProbed": 9873
+    },
+    "sites": []
+}

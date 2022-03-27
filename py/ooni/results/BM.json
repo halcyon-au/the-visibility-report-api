@@ -1,0 +1,16 @@
+{
+    "_id": "BM",
+    "country": {
+        "name": "Bermuda",
+        "alpha2Code": "BM",
+        "alpha3Code": "BMU",
+        "population": 63903,
+        "flags": {
+            "svg": "https://flagcdn.com/bm.svg",
+            "png": "https://flagcdn.com/w320/bm.png"
+        },
+        "independent": false,
+        "asnProbed": 3855
+    },
+    "sites": []
+}

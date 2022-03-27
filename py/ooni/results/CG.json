@@ -1,0 +1,16 @@
+{
+    "_id": "CG",
+    "country": {
+        "name": "Congo",
+        "alpha2Code": "CG",
+        "alpha3Code": "COG",
+        "population": 5518092,
+        "flags": {
+            "svg": "https://flagcdn.com/cg.svg",
+            "png": "https://flagcdn.com/w320/cg.png"
+        },
+        "independent": false,
+        "asnProbed": 37463
+    },
+    "sites": []
+}

@@ -1,0 +1,16 @@
+{
+    "_id": "SY",
+    "country": {
+        "name": "Syrian Arab Republic",
+        "alpha2Code": "SY",
+        "alpha3Code": "SYR",
+        "population": 17500657,
+        "flags": {
+            "svg": "https://flagcdn.com/sy.svg",
+            "png": "https://flagcdn.com/w320/sy.png"
+        },
+        "independent": false,
+        "asnProbed": 29256
+    },
+    "sites": []
+}

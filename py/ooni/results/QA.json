@@ -1,0 +1,16 @@
+{
+    "_id": "QA",
+    "country": {
+        "name": "Qatar",
+        "alpha2Code": "QA",
+        "alpha3Code": "QAT",
+        "population": 2881060,
+        "flags": {
+            "svg": "https://flagcdn.com/qa.svg",
+            "png": "https://flagcdn.com/w320/qa.png"
+        },
+        "independent": false,
+        "asnProbed": 42298
+    },
+    "sites": []
+}

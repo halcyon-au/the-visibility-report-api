@@ -1,0 +1,16 @@
+{
+    "_id": "MZ",
+    "country": {
+        "name": "Mozambique",
+        "alpha2Code": "MZ",
+        "alpha3Code": "MOZ",
+        "population": 31255435,
+        "flags": {
+            "svg": "https://flagcdn.com/mz.svg",
+            "png": "https://flagcdn.com/w320/mz.png"
+        },
+        "independent": false,
+        "asnProbed": 37223
+    },
+    "sites": []
+}

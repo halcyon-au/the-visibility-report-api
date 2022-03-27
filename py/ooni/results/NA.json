@@ -1,0 +1,16 @@
+{
+    "_id": "NA",
+    "country": {
+        "name": "Namibia",
+        "alpha2Code": "NA",
+        "alpha3Code": "NAM",
+        "population": 2540916,
+        "flags": {
+            "svg": "https://flagcdn.com/na.svg",
+            "png": "https://flagcdn.com/w320/na.png"
+        },
+        "independent": false,
+        "asnProbed": 33763
+    },
+    "sites": []
+}

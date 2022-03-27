@@ -1,0 +1,16 @@
+{
+    "_id": "MD",
+    "country": {
+        "name": "Moldova (Republic of)",
+        "alpha2Code": "MD",
+        "alpha3Code": "MDA",
+        "population": 2617820,
+        "flags": {
+            "svg": "https://flagcdn.com/md.svg",
+            "png": "https://flagcdn.com/w320/md.png"
+        },
+        "independent": false,
+        "asnProbed": 31252
+    },
+    "sites": []
+}

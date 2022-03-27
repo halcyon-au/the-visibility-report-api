@@ -1,0 +1,16 @@
+{
+    "_id": "MV",
+    "country": {
+        "name": "Maldives",
+        "alpha2Code": "MV",
+        "alpha3Code": "MDV",
+        "population": 540542,
+        "flags": {
+            "svg": "https://flagcdn.com/mv.svg",
+            "png": "https://flagcdn.com/w320/mv.png"
+        },
+        "independent": false,
+        "asnProbed": 55944
+    },
+    "sites": []
+}

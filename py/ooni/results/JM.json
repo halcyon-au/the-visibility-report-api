@@ -1,0 +1,77 @@
+{
+    "_id": "JM",
+    "country": {
+        "name": "Jamaica",
+        "alpha2Code": "JM",
+        "alpha3Code": "JAM",
+        "population": 2961161,
+        "flags": {
+            "svg": "https://flagcdn.com/jm.svg",
+            "png": "https://flagcdn.com/w320/jm.png"
+        },
+        "independent": false,
+        "asnProbed": 30689
+    },
+    "sites": [
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T10:02:56.469101+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 187
+            }
+        },
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T10:02:56.469101+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 187
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:02:56.469101+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 185
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:02:56.469101+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 185
+            }
+        },
+        {
+            "site": "https://www.tiktok.com/",
+            "lastChecked": "2022-03-27T10:02:56.469101+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        }
+    ]
+}

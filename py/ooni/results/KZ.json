@@ -1,0 +1,65 @@
+{
+    "_id": "KZ",
+    "country": {
+        "name": "Kazakhstan",
+        "alpha2Code": "KZ",
+        "alpha3Code": "KAZ",
+        "population": 18754440,
+        "flags": {
+            "svg": "https://flagcdn.com/kz.svg",
+            "png": "https://flagcdn.com/w320/kz.png"
+        },
+        "independent": false,
+        "asnProbed": 9198
+    },
+    "sites": [
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T10:03:12.643931+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 263
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:03:12.643931+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 263
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:03:12.643931+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 262
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T10:03:12.643931+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 259
+            }
+        }
+    ]
+}

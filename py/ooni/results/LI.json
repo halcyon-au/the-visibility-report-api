@@ -1,0 +1,16 @@
+{
+    "_id": "LI",
+    "country": {
+        "name": "Liechtenstein",
+        "alpha2Code": "LI",
+        "alpha3Code": "LIE",
+        "population": 38137,
+        "flags": {
+            "svg": "https://flagcdn.com/li.svg",
+            "png": "https://flagcdn.com/w320/li.png"
+        },
+        "independent": false,
+        "asnProbed": 48362
+    },
+    "sites": []
+}

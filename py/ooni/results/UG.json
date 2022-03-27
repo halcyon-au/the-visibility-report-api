@@ -1,0 +1,65 @@
+{
+    "_id": "UG",
+    "country": {
+        "name": "Uganda",
+        "alpha2Code": "UG",
+        "alpha3Code": "UGA",
+        "population": 45741000,
+        "flags": {
+            "svg": "https://flagcdn.com/ug.svg",
+            "png": "https://flagcdn.com/w320/ug.png"
+        },
+        "independent": false,
+        "asnProbed": 327687
+    },
+    "sites": [
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:09:18.139722+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 85
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:09:18.139722+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 85
+            }
+        },
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T10:09:18.139722+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 84
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T10:09:18.139722+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 4,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 83
+            }
+        }
+    ]
+}

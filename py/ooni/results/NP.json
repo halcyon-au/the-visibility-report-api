@@ -1,0 +1,16 @@
+{
+    "_id": "NP",
+    "country": {
+        "name": "Nepal",
+        "alpha2Code": "NP",
+        "alpha3Code": "NPL",
+        "population": 29136808,
+        "flags": {
+            "svg": "https://flagcdn.com/np.svg",
+            "png": "https://flagcdn.com/w320/np.png"
+        },
+        "independent": false,
+        "asnProbed": 140989
+    },
+    "sites": []
+}

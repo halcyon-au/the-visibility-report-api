@@ -1,0 +1,16 @@
+{
+    "_id": "LU",
+    "country": {
+        "name": "Luxembourg",
+        "alpha2Code": "LU",
+        "alpha3Code": "LUX",
+        "population": 632275,
+        "flags": {
+            "svg": "https://flagcdn.com/lu.svg",
+            "png": "https://flagcdn.com/w320/lu.png"
+        },
+        "independent": false,
+        "asnProbed": 8632
+    },
+    "sites": []
+}

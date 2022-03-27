@@ -1,0 +1,16 @@
+{
+    "_id": "NC",
+    "country": {
+        "name": "New Caledonia",
+        "alpha2Code": "NC",
+        "alpha3Code": "NCL",
+        "population": 271960,
+        "flags": {
+            "svg": "https://flagcdn.com/nc.svg",
+            "png": "https://flagcdn.com/w320/nc.png"
+        },
+        "independent": false,
+        "asnProbed": 56089
+    },
+    "sites": []
+}

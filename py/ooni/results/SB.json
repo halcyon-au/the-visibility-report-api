@@ -1,0 +1,16 @@
+{
+    "_id": "SB",
+    "country": {
+        "name": "Solomon Islands",
+        "alpha2Code": "SB",
+        "alpha3Code": "SLB",
+        "population": 686878,
+        "flags": {
+            "svg": "https://flagcdn.com/sb.svg",
+            "png": "https://flagcdn.com/w320/sb.png"
+        },
+        "independent": false,
+        "asnProbed": 132462
+    },
+    "sites": []
+}

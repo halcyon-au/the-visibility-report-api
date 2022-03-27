@@ -1,0 +1,65 @@
+{
+    "_id": "BG",
+    "country": {
+        "name": "Bulgaria",
+        "alpha2Code": "BG",
+        "alpha3Code": "BGR",
+        "population": 6927288,
+        "flags": {
+            "svg": "https://flagcdn.com/bg.svg",
+            "png": "https://flagcdn.com/w320/bg.png"
+        },
+        "independent": false,
+        "asnProbed": 13124
+    },
+    "sites": [
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T09:59:06.001981+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 4,
+                "total_count": 100
+            }
+        },
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T09:59:06.001981+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 4,
+                "total_count": 99
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T09:59:06.001981+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 4,
+                "total_count": 99
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T09:59:06.001981+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 4,
+                "total_count": 99
+            }
+        }
+    ]
+}

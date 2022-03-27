@@ -1,0 +1,16 @@
+{
+    "_id": "AG",
+    "country": {
+        "name": "Antigua and Barbuda",
+        "alpha2Code": "AG",
+        "alpha3Code": "ATG",
+        "population": 97928,
+        "flags": {
+            "svg": "https://flagcdn.com/ag.svg",
+            "png": "https://flagcdn.com/w320/ag.png"
+        },
+        "independent": false,
+        "asnProbed": 14813
+    },
+    "sites": []
+}

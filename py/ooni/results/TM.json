@@ -1,0 +1,16 @@
+{
+    "_id": "TM",
+    "country": {
+        "name": "Turkmenistan",
+        "alpha2Code": "TM",
+        "alpha3Code": "TKM",
+        "population": 6031187,
+        "flags": {
+            "svg": "https://flagcdn.com/tm.svg",
+            "png": "https://flagcdn.com/w320/tm.png"
+        },
+        "independent": false,
+        "asnProbed": 20661
+    },
+    "sites": []
+}

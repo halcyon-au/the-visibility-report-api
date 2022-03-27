@@ -1,0 +1,16 @@
+{
+    "_id": "MQ",
+    "country": {
+        "name": "Martinique",
+        "alpha2Code": "MQ",
+        "alpha3Code": "MTQ",
+        "population": 378243,
+        "flags": {
+            "svg": "https://flagcdn.com/mq.svg",
+            "png": "https://flagcdn.com/w320/mq.png"
+        },
+        "independent": false,
+        "asnProbed": 3215
+    },
+    "sites": []
+}

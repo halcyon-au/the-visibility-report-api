@@ -1,0 +1,16 @@
+{
+    "_id": "SR",
+    "country": {
+        "name": "Suriname",
+        "alpha2Code": "SR",
+        "alpha3Code": "SUR",
+        "population": 586634,
+        "flags": {
+            "svg": "https://flagcdn.com/sr.svg",
+            "png": "https://flagcdn.com/w320/sr.png"
+        },
+        "independent": false,
+        "asnProbed": 27775
+    },
+    "sites": []
+}

@@ -1,0 +1,16 @@
+{
+    "_id": "SC",
+    "country": {
+        "name": "Seychelles",
+        "alpha2Code": "SC",
+        "alpha3Code": "SYC",
+        "population": 98462,
+        "flags": {
+            "svg": "https://flagcdn.com/sc.svg",
+            "png": "https://flagcdn.com/w320/sc.png"
+        },
+        "independent": false,
+        "asnProbed": 36902
+    },
+    "sites": []
+}

@@ -1,0 +1,16 @@
+{
+    "_id": "PY",
+    "country": {
+        "name": "Paraguay",
+        "alpha2Code": "PY",
+        "alpha3Code": "PRY",
+        "population": 7132530,
+        "flags": {
+            "svg": "https://flagcdn.com/py.svg",
+            "png": "https://flagcdn.com/w320/py.png"
+        },
+        "independent": false,
+        "asnProbed": 269905
+    },
+    "sites": []
+}

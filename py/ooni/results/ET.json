@@ -1,0 +1,16 @@
+{
+    "_id": "ET",
+    "country": {
+        "name": "Ethiopia",
+        "alpha2Code": "ET",
+        "alpha3Code": "ETH",
+        "population": 114963583,
+        "flags": {
+            "svg": "https://flagcdn.com/et.svg",
+            "png": "https://flagcdn.com/w320/et.png"
+        },
+        "independent": false,
+        "asnProbed": 24757
+    },
+    "sites": []
+}

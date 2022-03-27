@@ -1,0 +1,6125 @@
+{
+    "_id": "ZA",
+    "country": {
+        "name": "South Africa",
+        "alpha2Code": "ZA",
+        "alpha3Code": "ZAF",
+        "population": 59308690,
+        "flags": {
+            "svg": "https://flagcdn.com/za.svg",
+            "png": "https://flagcdn.com/w320/za.png"
+        },
+        "independent": false,
+        "asnProbed": 328596
+    },
+    "sites": [
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 467
+            }
+        },
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 465
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 465
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 459
+            }
+        },
+        {
+            "site": "https://www.reddit.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 128
+            }
+        },
+        {
+            "site": "https://www.viber.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 117
+            }
+        },
+        {
+            "site": "https://vimeo.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 116
+            }
+        },
+        {
+            "site": "https://telegram.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 114
+            }
+        },
+        {
+            "site": "https://www.snapchat.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 114
+            }
+        },
+        {
+            "site": "https://signal.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 113
+            }
+        },
+        {
+            "site": "https://www.whatsapp.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 113
+            }
+        },
+        {
+            "site": "https://www.wechat.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 108
+            }
+        },
+        {
+            "site": "https://www.tiktok.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 91
+            }
+        },
+        {
+            "site": "http://www.viber.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 83
+            }
+        },
+        {
+            "site": "https://scontent-ams4-1.cdninstagram.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 70
+            }
+        },
+        {
+            "site": "https://static.xx.fbcdn.net/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 68
+            }
+        },
+        {
+            "site": "https://www.ning.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 68
+            }
+        },
+        {
+            "site": "https://mitm.watch/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 67,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 67
+            }
+        },
+        {
+            "site": "https://dailystormer.su/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 22,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 67
+            }
+        },
+        {
+            "site": "https://fleegle.mixmin.net/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 67
+            }
+        },
+        {
+            "site": "https://remailer.paranoici.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 67
+            }
+        },
+        {
+            "site": "https://spiegel.de/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 67
+            }
+        },
+        {
+            "site": "https://styles.redditmedia.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 67
+            }
+        },
+        {
+            "site": "https://www.clubhouse.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 67
+            }
+        },
+        {
+            "site": "http://www.giganews.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "https://clubhouse.pubnub.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "https://mixi.jp/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "https://pixelfed.social/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "https://preview.redd.it/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "https://qph.fs.quoracdn.net/main-thumb-1117688072-200-uijiqfjcmlvaxczdrlawbgyaomfocdnt.jpeg",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "https://scontent.xx.fbcdn.net/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "https://www.facebook.com/RTNews",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "https://www.patreon.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 66
+            }
+        },
+        {
+            "site": "http://204.13.164.118/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 65
+            }
+        },
+        {
+            "site": "https://kiwifarms.net/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 65
+            }
+        },
+        {
+            "site": "https://mstdn.jp/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 65
+            }
+        },
+        {
+            "site": "https://qsbr.fs.quoracdn.net/-4-web.entry.js.out-34-8f7d03da0b7a24ae.webpack",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 65
+            }
+        },
+        {
+            "site": "https://s.pinimg.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 65
+            }
+        },
+        {
+            "site": "https://vk.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 65
+            }
+        },
+        {
+            "site": "https://www.clubhouseapi.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 65
+            }
+        },
+        {
+            "site": "https://www.icij.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 65
+            }
+        },
+        {
+            "site": "https://www.meetme.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "http://www.fark.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://censorship.no/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://mastodon.sdf.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://mstdn.io/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://opennet.net/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://plus.im/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://securevpn.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://tinder.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.afp.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.article19.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.eurobicon.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.freespeech.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.globalpride2020.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.gnupg.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.hootsuite.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.knapsackforhope.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.trendsmap.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "https://www.womenonwaves.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 64
+            }
+        },
+        {
+            "site": "http://194.109.206.212/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 41,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://131.188.40.189/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://154.35.175.225/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://171.25.193.9:443/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://abahlali.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://adium.im/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://guardster.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://islamonline.net/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://redjohn.net/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://www.feminist.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://www.lanacion.com.ar/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://www.washingtontimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://black.riseup.net/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://edge-chat.instagram.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://i.pinimg.com/236x/78/6e/00/786e00eab219eca59803d118fbe0feb3.jpg",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://lgbtnewsnow.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://mastodon.cloud/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://myspace.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://pbs.twimg.com/profile_images/941658150889054208/lFeD3554_200x200.jpg",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://pirateparty.org.au/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://staticxx.facebook.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://video.twimg.com/tweet_video/EC6DSXDXsAEhHAa.mp4",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://www.accessnow.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://www.bbc.co.uk/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://www.cfr.org/backgrounder/same-sex-marriage-global-comparisons",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://www.cnn.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://www.iranti.org.za/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://www.mc-doualiya.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://www.redditstatic.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "https://www.spiegel.de/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 63
+            }
+        },
+        {
+            "site": "http://www.43things.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 31,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "http://anonym.to/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 13,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "http://128.31.0.39:9131/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "http://66.111.2.131:9030/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "http://86.59.21.38/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "http://abc.go.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "http://www.linkedin.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://badoo.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://bisexual.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 3,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://joinmastodon.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://mastodon.host/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 62,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://openvpn.net/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://turbobit.net/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://unpo.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://upload.twitter.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://wikileaks.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.awid.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.brookings.edu/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.ebuddy.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.freespeechcoalition.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.ft.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.planetromeo.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.rfa.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.scruff.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.uproxy.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.vice.com/en_us",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "https://www.yelp.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 62
+            }
+        },
+        {
+            "site": "http://www.hospitalityclub.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://hola.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://hornet.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://i.instagram.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://mastodon.social/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://mastodon.xyz/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://ntc.party/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://pflag.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://protonvpn.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://strongvpn.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://veracrypt.fr/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.bbc.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.betternet.co/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.cbc.ca/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.cpj.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.francemediasmonde.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.grindr.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.herdict.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.ipetitions.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.ipredator.se/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.joinclubhouse.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "https://www.privateinternetaccess.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 61
+            }
+        },
+        {
+            "site": "http://craigslist.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "http://www.qhtyzx.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "http://amabhungane.co.za/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "http://blogspot.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "http://cartercenter.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "http://lgbtmap.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "http://www.dd-rd.ca/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "http://www.ihf-hr.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://76crimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://digg.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://foursquare.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://getlantern.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://globalvoices.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://hitwe.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 59,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://rsf.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://speedify.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://threema.ch/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://ultrasurf.us/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://wickr.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://www.clintonfoundation.org/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://www.france24.com/ar/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://www.haaretz.com/",
+            "lastChecked": "2022-03-27T10:07:50.546942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://www.ipvanish.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://www.meetup.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://www.mormon.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "https://www.tunnelbear.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 60
+            }
+        },
+        {
+            "site": "http://www.ifeminists.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 59,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://www.4chan.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://193.23.244.244/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://advocacy.globalvoicesonline.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://beyondexgay.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://creativecommons.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://feministing.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://hrlibrary.umn.edu/iwraw/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://secondlife.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://www.jmarshall.com/tools/cgiproxy/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://www.naral.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://www.paganpride.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "http://www.wftucentral.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://bebo.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://equal-eyes.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://external.xx.fbcdn.net/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://fbcdn.net/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://getoutline.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://gpgtools.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://groups.google.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://i2pforum.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://medium.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://secure.proxpn.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://shadowsocks.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://surfshark.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://tytnetwork.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.advocate.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.alarabiya.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.crisisgroup.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.gaystarnews.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.globalfundforwomen.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.guerrillagirls.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.hotspotshield.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.nifty.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.ohchr.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.opensocietyfoundations.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.pinkcupid.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.protectioninternational.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.theatlantic.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 4,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.theguardian.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://www.unwatch.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 59
+            }
+        },
+        {
+            "site": "https://download.i2p2.de/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 21,
+                "confirmed_count": 0,
+                "failure_count": 17,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.rt.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 6,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "http://199.58.81.140/tor/server/authority",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "http://4genderjustice.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "http://ilga.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "http://www.indiatimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "http://www.khrp.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "http://www.piratpartiet.se/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://cyber.harvard.edu/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.amnesty.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.eff.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.frontlinedefenders.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.glsen.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.ictj.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.linkedin.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.mombian.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.outrightinternational.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.pridemedia.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.purevpn.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.reuters.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.shoe.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.unwomen.org/en/news/stories/2019/5/compilation-lgbti-activists-to-know",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.usatoday.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "https://www.worldpulse.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 58
+            }
+        },
+        {
+            "site": "http://www.irna.ir/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 7,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://anonymouse.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://blogmarks.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://freemuse.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://lambdalegal.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://mashable.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://ultrasurf.us/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://world.internationalism.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.advocate.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.catholic.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.ifj.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.ihrc.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.ijm.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.iskcon.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.onlinewomeninpolitics.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.pravda.ru/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.tsroadmap.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://www.worldcoalition.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://btguard.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://cdt.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://citizenlab.ca/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://foreignpolicy.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://guardianproject.info/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://internationalfamilyequalityday.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://safervpn.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://thunder.free-signal.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.chinadaily.com.cn/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.exitinternational.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.icc-cpi.int/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.lds.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.lightsailvpn.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.opendns.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.rescue.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.secfirst.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.torproject.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.urduvoa.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.witness.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "https://www.wsj.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 57
+            }
+        },
+        {
+            "site": "http://gaytoday.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 56,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.qhnews.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 56,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://lgbt.foundation/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 45,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://download.cnet.com/freegate/3000-2085_4-10415391.html",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 4,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://multiproxy.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://spys.ru/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://timesofindia.indiatimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.arabtimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.freespeech.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.gmhc.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.http-tunnel.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.jmarshall.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.kabobfest.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.theepochtimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.theregister.co.uk/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://9gag.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://en.wikipedia.org/wiki/List_of_LGBT_awareness_periods",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://freedomhouse.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://gaymenshealth.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://messagevortex.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://otr.cypherpunks.ca/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://pridesource.com/article/top-10-international-lgbt-stories-of-2018/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://psiphon.ca/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://securevpn.im/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://theglobalobservatory.org/2019/07/mandate-renewal-independent-expert-sogi-at-risk/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://transequality.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.adventist.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.bnaibrith.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.dailymail.co.uk/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.familyequality.org/events/international-family-equality-day/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.ilga-europe.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.lgbtqnation.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.logmein.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.mideastyouth.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.omct.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.pinknews.co.uk/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.securityinabox.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.unfe.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.washingtonpost.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.wilpf.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "https://www.womenonweb.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 56
+            }
+        },
+        {
+            "site": "http://www.newnownext.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 55,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://explorer.ooni.io/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://ooni.torproject.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://wedo.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.inetprivacy.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.worldrtd.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://anonymizer.secuser.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://ccrjustice.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://iyfnet.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://peacefire.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://womeninblack.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.churchofeuthanasia.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.derechos.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.drudgereport.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.fepproject.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.fondationdefrance.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.gay.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.jhr.ca/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.latimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.peacefire.org/circumventor/simple-circumventor-instructions.html",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.people.com.cn/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.privaterra.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://www.wluml.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://disclose.ngo/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://element.io/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://freenetproject.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://getintra.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://grindr.mobi/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://help.unhcr.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://ipi.media/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://liveuamap.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://mask.icloud.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://proxify.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://slate.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://sputniknews.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://tails.boum.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://tor.eff.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.aljazeera.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.aljazeera.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.bbc.com/news",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.democracynow.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.getoutline.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.hrw.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.humanrightsconnected.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.nytimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.occrp.org/en",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.piratenpartei.ch/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "https://www.sbs.com.au/language/coronavirus?cid=infocus",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 55
+            }
+        },
+        {
+            "site": "http://proxy.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 3,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.dw-world.de/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://makeamazonpay.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.well.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://instinctmagazine.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://irr.org.za/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://jainworld.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://justicewomen.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://nypost.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.btselem.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.democracycaucus.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.ecequality.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.glbtqarchive.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.heritage.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.ilhr.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.isiswomen.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.pdhre.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.protest.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://api.protonvpn.ch/tests/ping",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://bouncer.ooni.io/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://bridges.torproject.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://en.wikipedia.org/wiki/Sex_and_gender_distinction",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://lalgbtcenter.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://secfirst.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.anonymizer.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.change.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.dailysabah.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.economist.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.f-secure.com/en/home/products/freedome/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.globaleaks.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.ohchr.org/en/issues/sexualorientationgender/pages/index.aspx",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.out.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.rambler.ru/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.reproductiverights.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "https://www.savethechildren.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 54
+            }
+        },
+        {
+            "site": "http://www.hrusa.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 23,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.oneworld.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 15,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://kaleidoscopetrust.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://anon.inf.tu-dresden.de/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://section27.org.za/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.abortionno.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.amandla.mobi/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.dit-inc.us/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.freedominfo.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.gayegypt.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.ilo.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.mainichi.co.jp/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.ngopulse.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.righttodie.ca/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.thegailygrind.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.unfpa.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://app.element.io/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://geti2p.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://globalpressjournal.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://itgetsbetter.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://lgbtvacationplanners.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://nordvpn.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://www.haaretz.com/life/five-films-you-have-to-see-at-tel-aviv-s-international-lgbt-film-festival-1.7338266",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://www.jihadwatch.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://www.namecoin.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://www.opentech.fund/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://www.rki.de/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "https://www.thetrevorproject.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 53
+            }
+        },
+        {
+            "site": "http://www.sweat.org.za/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 51,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.khilafah.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 38,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.lgbtglobalfaith.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 22,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.ectaco.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://cryptome.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://mask-api.icloud.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://ooni.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://laborrights.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://tdov.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.bahai.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.childrensdefense.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.foxnews.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.humanrightsfirst.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.ifex.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.ifge.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.rferl.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.samesexmarriage.ca/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.shinto.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.sos-reporters.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.transparentgender.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "http://www.ultimate-anonymity.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://allout.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://antivigilancia.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://arc-international.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://freespeechdebate.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://massbrowser.cs.umass.edu/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://news.google.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://slashdot.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://www.gnu.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://www.martus.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://www.nbcnews.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://www.ndi.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://www.stonewall.org.uk/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://www.unicef.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://www.unwomen.org/en/news/stories?topic=f8c6fb042b184dd482c36bf10173a6aa",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 52
+            }
+        },
+        {
+            "site": "https://www.nostraightnews.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://amygoodloe.com/lesbian-dot-org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://avaaz.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://carnegieendowment.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://fteproxy.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.amnestyusa.org/the-state-of-lgbt-rights-worldwide/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.bglad.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.feminist.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.genderhealth.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.glaad.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.hrc.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.laborrightsnow.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.sbc.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://mobile.element.io/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://tacticaltech.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://www.fidh.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://www.gmail.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://www.hidemyass.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://www.megaproxy.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://www.nbc.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://www.queerty.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "https://www.xroxy.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 51
+            }
+        },
+        {
+            "site": "http://www.newnownext.com/franchise/the-backlot/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 50,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.proxyweb.net/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 50,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.zensur.freerk.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 50,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://iwhc.org/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 49,
+                "confirmed_count": 0,
+                "failure_count": 49,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.kcna.kp/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 20,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://ikhwanonline.com/",
+            "lastChecked": "2022-03-27T10:07:50.547942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.almanar.com.lb/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.anglicancommunion.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.apt.ch/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.benedelman.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.chinatimes.com/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.fordfound.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.freeexpression.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.inminds.co.uk/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.out.org.za/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.pcusa.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.rfi.fr/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.transparency.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.umc.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.unfpa.org/swp",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "http://www.upci.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://a.slack-edge.com/f70ec/img/test_cdn_pixel.gif",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://app.slack.com/robots.txt",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://mask-h2.icloud.com/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://mg.co.za/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://posteo.de/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://www.dailymaverick.co.za/opinionistas",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://www.freepik.com/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://www.hrw.org/africa/south-africa",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://www.madre.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        },
+        {
+            "site": "https://www.privacyinternational.org/",
+            "lastChecked": "2022-03-27T10:07:50.548942+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        }
+    ]
+}

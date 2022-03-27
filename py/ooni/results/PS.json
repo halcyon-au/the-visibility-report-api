@@ -1,0 +1,16 @@
+{
+    "_id": "PS",
+    "country": {
+        "name": "Palestine, State of",
+        "alpha2Code": "PS",
+        "alpha3Code": "PSE",
+        "population": 4803269,
+        "flags": {
+            "svg": "https://flagcdn.com/ps.svg",
+            "png": "https://flagcdn.com/w320/ps.png"
+        },
+        "independent": false,
+        "asnProbed": 15975
+    },
+    "sites": []
+}

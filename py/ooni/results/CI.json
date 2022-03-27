@@ -1,0 +1,16 @@
+{
+    "_id": "CI",
+    "country": {
+        "name": "Ivory Coast",
+        "alpha2Code": "CI",
+        "alpha3Code": "CIV",
+        "population": 26378275,
+        "flags": {
+            "svg": "https://flagcdn.com/ci.svg",
+            "png": "https://flagcdn.com/w320/ci.png"
+        },
+        "independent": false,
+        "asnProbed": 29571
+    },
+    "sites": []
+}

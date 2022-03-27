@@ -1,0 +1,16 @@
+{
+    "_id": "SO",
+    "country": {
+        "name": "Somalia",
+        "alpha2Code": "SO",
+        "alpha3Code": "SOM",
+        "population": 15893219,
+        "flags": {
+            "svg": "https://flagcdn.com/so.svg",
+            "png": "https://flagcdn.com/w320/so.png"
+        },
+        "independent": false,
+        "asnProbed": 37473
+    },
+    "sites": []
+}

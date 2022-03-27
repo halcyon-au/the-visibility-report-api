@@ -1,0 +1,16 @@
+{
+    "_id": "GF",
+    "country": {
+        "name": "French Guiana",
+        "alpha2Code": "GF",
+        "alpha3Code": "GUF",
+        "population": 254541,
+        "flags": {
+            "svg": "https://flagcdn.com/gf.svg",
+            "png": "https://flagcdn.com/w320/gf.png"
+        },
+        "independent": false,
+        "asnProbed": 21351
+    },
+    "sites": []
+}

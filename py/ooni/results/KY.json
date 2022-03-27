@@ -1,0 +1,16 @@
+{
+    "_id": "KY",
+    "country": {
+        "name": "Cayman Islands",
+        "alpha2Code": "KY",
+        "alpha3Code": "CYM",
+        "population": 65720,
+        "flags": {
+            "svg": "https://flagcdn.com/ky.svg",
+            "png": "https://flagcdn.com/w320/ky.png"
+        },
+        "independent": false,
+        "asnProbed": 6639
+    },
+    "sites": []
+}

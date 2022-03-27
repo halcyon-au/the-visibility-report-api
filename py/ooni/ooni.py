@@ -36,6 +36,10 @@ def get_asn(country: str):
         "probe_cc": country
     })
 
+    if not asn["results"]: # No ASN
+        print(f"Country {country} has no ASN")
+        return None
+
     # OONI will likely give the max count ASN, but just to be sure
     asn_max = max(asn["results"], key=lambda k:k["count"])
     return asn_max["probe_asn"]
@@ -89,31 +93,20 @@ def build_site_model(site: dict):
 
 # Triggered every day?
 if __name__ == "__main__":
-    #countries = get_countries()
-
-    countries = [    {
-        "name": "Russian Federation",
-        "alpha2Code": "RU",
-        "alpha3Code": "RUS",
-        "population": 144104080,
-        "flags": {
-            "svg": "https://flagcdn.com/ru.svg",
-            "png": "https://flagcdn.com/w320/ru.png"
-        },
-        "independent": False
-    }]
-
+    countries = get_countries()
     results = []
 
     for country in countries:
         country_code = country["alpha2Code"]
 
+        print(country_code)
+
         asn = get_asn(country_code)
-        c = get_country(country, asn)
+        if asn:
+            c = get_country(country, asn)
 
-        # with open("ru_result.json", "w") as o:
-        #     json.dump(c, o, indent=4)
+            with open(f"results/{country_code}.json", "w") as o:
+                json.dump(c, o, indent=4)
 
-        results.append(c)
-
+            results.append(c)
     update_db(results)

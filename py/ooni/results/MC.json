@@ -1,0 +1,16 @@
+{
+    "_id": "MC",
+    "country": {
+        "name": "Monaco",
+        "alpha2Code": "MC",
+        "alpha3Code": "MCO",
+        "population": 39244,
+        "flags": {
+            "svg": "https://flagcdn.com/mc.svg",
+            "png": "https://flagcdn.com/w320/mc.png"
+        },
+        "independent": false,
+        "asnProbed": 6758
+    },
+    "sites": []
+}

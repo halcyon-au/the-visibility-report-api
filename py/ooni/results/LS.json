@@ -1,0 +1,16 @@
+{
+    "_id": "LS",
+    "country": {
+        "name": "Lesotho",
+        "alpha2Code": "LS",
+        "alpha3Code": "LSO",
+        "population": 2142252,
+        "flags": {
+            "svg": "https://flagcdn.com/ls.svg",
+            "png": "https://flagcdn.com/w320/ls.png"
+        },
+        "independent": false,
+        "asnProbed": 33567
+    },
+    "sites": []
+}

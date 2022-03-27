@@ -1,0 +1,16 @@
+{
+    "_id": "PA",
+    "country": {
+        "name": "Panama",
+        "alpha2Code": "PA",
+        "alpha3Code": "PAN",
+        "population": 4314768,
+        "flags": {
+            "svg": "https://flagcdn.com/pa.svg",
+            "png": "https://flagcdn.com/w320/pa.png"
+        },
+        "independent": false,
+        "asnProbed": 11556
+    },
+    "sites": []
+}

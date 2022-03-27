@@ -1,0 +1,16 @@
+{
+    "_id": "TZ",
+    "country": {
+        "name": "Tanzania, United Republic of",
+        "alpha2Code": "TZ",
+        "alpha3Code": "TZA",
+        "population": 59734213,
+        "flags": {
+            "svg": "https://flagcdn.com/tz.svg",
+            "png": "https://flagcdn.com/w320/tz.png"
+        },
+        "independent": false,
+        "asnProbed": 327885
+    },
+    "sites": []
+}

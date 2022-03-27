@@ -1,0 +1,16 @@
+{
+    "_id": "EC",
+    "country": {
+        "name": "Ecuador",
+        "alpha2Code": "EC",
+        "alpha3Code": "ECU",
+        "population": 17643060,
+        "flags": {
+            "svg": "https://flagcdn.com/ec.svg",
+            "png": "https://flagcdn.com/w320/ec.png"
+        },
+        "independent": false,
+        "asnProbed": 263792
+    },
+    "sites": []
+}

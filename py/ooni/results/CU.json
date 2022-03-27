@@ -1,0 +1,16 @@
+{
+    "_id": "CU",
+    "country": {
+        "name": "Cuba",
+        "alpha2Code": "CU",
+        "alpha3Code": "CUB",
+        "population": 11326616,
+        "flags": {
+            "svg": "https://flagcdn.com/cu.svg",
+            "png": "https://flagcdn.com/w320/cu.png"
+        },
+        "independent": false,
+        "asnProbed": 27725
+    },
+    "sites": []
+}

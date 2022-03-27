@@ -1,0 +1,65 @@
+{
+    "_id": "CL",
+    "country": {
+        "name": "Chile",
+        "alpha2Code": "CL",
+        "alpha3Code": "CHL",
+        "population": 19116209,
+        "flags": {
+            "svg": "https://flagcdn.com/cl.svg",
+            "png": "https://flagcdn.com/w320/cl.png"
+        },
+        "independent": false,
+        "asnProbed": 14117
+    },
+    "sites": [
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T09:59:38.511745+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 156
+            }
+        },
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T09:59:38.511745+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 153
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T09:59:38.511745+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 152
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T09:59:38.511745+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 152
+            }
+        }
+    ]
+}

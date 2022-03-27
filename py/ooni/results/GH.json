@@ -1,0 +1,16 @@
+{
+    "_id": "GH",
+    "country": {
+        "name": "Ghana",
+        "alpha2Code": "GH",
+        "alpha3Code": "GHA",
+        "population": 31072945,
+        "flags": {
+            "svg": "https://flagcdn.com/gh.svg",
+            "png": "https://flagcdn.com/w320/gh.png"
+        },
+        "independent": false,
+        "asnProbed": 37288
+    },
+    "sites": []
+}

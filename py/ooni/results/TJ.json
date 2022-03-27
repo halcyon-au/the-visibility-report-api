@@ -1,0 +1,16 @@
+{
+    "_id": "TJ",
+    "country": {
+        "name": "Tajikistan",
+        "alpha2Code": "TJ",
+        "alpha3Code": "TJK",
+        "population": 9537642,
+        "flags": {
+            "svg": "https://flagcdn.com/tj.svg",
+            "png": "https://flagcdn.com/w320/tj.png"
+        },
+        "independent": false,
+        "asnProbed": 48887
+    },
+    "sites": []
+}

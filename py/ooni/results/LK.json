@@ -1,0 +1,16 @@
+{
+    "_id": "LK",
+    "country": {
+        "name": "Sri Lanka",
+        "alpha2Code": "LK",
+        "alpha3Code": "LKA",
+        "population": 21919000,
+        "flags": {
+            "svg": "https://flagcdn.com/lk.svg",
+            "png": "https://flagcdn.com/w320/lk.png"
+        },
+        "independent": false,
+        "asnProbed": 9329
+    },
+    "sites": []
+}

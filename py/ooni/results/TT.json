@@ -1,0 +1,16 @@
+{
+    "_id": "TT",
+    "country": {
+        "name": "Trinidad and Tobago",
+        "alpha2Code": "TT",
+        "alpha3Code": "TTO",
+        "population": 1399491,
+        "flags": {
+            "svg": "https://flagcdn.com/tt.svg",
+            "png": "https://flagcdn.com/w320/tt.png"
+        },
+        "independent": false,
+        "asnProbed": 27789
+    },
+    "sites": []
+}

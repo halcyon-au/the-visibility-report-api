@@ -1,0 +1,16 @@
+{
+    "_id": "MR",
+    "country": {
+        "name": "Mauritania",
+        "alpha2Code": "MR",
+        "alpha3Code": "MRT",
+        "population": 4649660,
+        "flags": {
+            "svg": "https://flagcdn.com/mr.svg",
+            "png": "https://flagcdn.com/w320/mr.png"
+        },
+        "independent": false,
+        "asnProbed": 29544
+    },
+    "sites": []
+}

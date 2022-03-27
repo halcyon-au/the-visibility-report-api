@@ -1,0 +1,16 @@
+{
+    "_id": "YE",
+    "country": {
+        "name": "Yemen",
+        "alpha2Code": "YE",
+        "alpha3Code": "YEM",
+        "population": 29825968,
+        "flags": {
+            "svg": "https://flagcdn.com/ye.svg",
+            "png": "https://flagcdn.com/w320/ye.png"
+        },
+        "independent": false,
+        "asnProbed": 30873
+    },
+    "sites": []
+}

@@ -1,0 +1,2453 @@
+{
+    "_id": "AM",
+    "country": {
+        "name": "Armenia",
+        "alpha2Code": "AM",
+        "alpha3Code": "ARM",
+        "population": 2963234,
+        "flags": {
+            "svg": "https://flagcdn.com/am.svg",
+            "png": "https://flagcdn.com/w320/am.png"
+        },
+        "independent": false,
+        "asnProbed": 49800
+    },
+    "sites": [
+        {
+            "site": "https://peacedialogue.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 1857
+            }
+        },
+        {
+            "site": "https://www.nkr.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 927,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.president.nkr.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 923,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.arminco.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 192,
+                "confirmed_count": 0,
+                "failure_count": 63,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://en.wiktionary.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 17,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://hy.wikipedia.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 17,
+                "confirmed_count": 0,
+                "failure_count": 3,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://hy.wikisource.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 16,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://hy.wiktionary.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 16,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://ru.wikisource.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 16,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://ru.wiktionary.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 16,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://ru.m.wikisource.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 15,
+                "confirmed_count": 0,
+                "failure_count": 3,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://pinkarmenia.blogspot.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 6,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://ucom.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 5,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://mts.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.womenofarmenia.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.concourt.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://beeline.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 3,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.csi.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.religions.am/eng/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.ucom.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://aleppo-ngo.org",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://allrights.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://article3.club/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://forequalrights.org",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://humanrightshouse.org/human-rights-houses/yerevan/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://osf.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.armenian-genocide.org",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.cba.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.justice.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.mnp.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://internet.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://reg.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://stopxenophobia.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.fastnet.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.hayastan.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.jewish.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.ombuds.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://www.web.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://armavirdc.org",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://armdocs.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://bwrc.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://c-i.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://covid.pjc.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://epfarmenia.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://escs.am/am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://foi.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://hcav.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://itekngo.com",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://mdi.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://media-center.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://name.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://ngngo.net/hy",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://ngoc.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://pjc.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://political.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://prwb.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://sose-ngo.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://syunikwrc.net",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://transparency.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://vars.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 31,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://womeninblackarmenia.weebly.com",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.armstat.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.competition.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 921,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.csc.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 929,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.elections.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.genproc.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.gov.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.mes.am                                                                                                                                         ",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.mfa.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.mil.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 20,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.minagro.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 918,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.parliament.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 92,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.police.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.president.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.psrc.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.sns.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "https://www.yerevan.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 929
+            }
+        },
+        {
+            "site": "http://gayarmenia.blogspot.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 928,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "http://mediaadvocate.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 927,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "http://queeringyerevan.blogspot.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 927,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "https://oxygen.org.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 54,
+                "confirmed_count": 0,
+                "failure_count": 121,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "http://trans-armenia.blogspot.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 5,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "https://womenofarmenia.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "http://gayarmenia.aglany.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "http://armhels.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "http://hahr.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "http://www.galasla.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "http://xirat.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "https://cyberhub.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "https://mediapoint.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 928
+            }
+        },
+        {
+            "site": "https://www.yell.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 8,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 927
+            }
+        },
+        {
+            "site": "http://a1plus.wordpress.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 5,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 927
+            }
+        },
+        {
+            "site": "http://www.haytube.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 927
+            }
+        },
+        {
+            "site": "https://spyur.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 927
+            }
+        },
+        {
+            "site": "http://ara-ashjian.blogspot.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 926,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 926
+            }
+        },
+        {
+            "site": "http://azad-hye.blogspot.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 8,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 926
+            }
+        },
+        {
+            "site": "http://civilnet.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 926
+            }
+        },
+        {
+            "site": "http://ilur.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 926
+            }
+        },
+        {
+            "site": "http://ditord.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 925
+            }
+        },
+        {
+            "site": "http://epress.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 925
+            }
+        },
+        {
+            "site": "http://foi.am/en/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 925
+            }
+        },
+        {
+            "site": "https://hraparak.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 924
+            }
+        },
+        {
+            "site": "https://shamshyan.com",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 924
+            }
+        },
+        {
+            "site": "https://www.armenian-assembly.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://www.7or.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://www.anca.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://lragir.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://www.arka.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "https://banman.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://panarmenian.net/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://razm.info/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://www.168.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://www.1in.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://www.a1plus.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://www.aravot.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "https://1lurer.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "https://blognews.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "https://evnreport.com",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "https://mamul.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 923
+            }
+        },
+        {
+            "site": "http://times.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 922
+            }
+        },
+        {
+            "site": "http://www.armeniapedia.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 922
+            }
+        },
+        {
+            "site": "https://aysor.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 4,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 921
+            }
+        },
+        {
+            "site": "http://www.arminfo.info/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 921
+            }
+        },
+        {
+            "site": "http://www.armtimes.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 921
+            }
+        },
+        {
+            "site": "http://www.azadinform.az/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 4,
+                "total_count": 921
+            }
+        },
+        {
+            "site": "http://www.azatutyun.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 921
+            }
+        },
+        {
+            "site": "http://www.day.az/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 6,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 920
+            }
+        },
+        {
+            "site": "http://newsarmenia.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 5,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 920
+            }
+        },
+        {
+            "site": "http://www.azg.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 920
+            }
+        },
+        {
+            "site": "https://antifake.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 920
+            }
+        },
+        {
+            "site": "https://politik.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 920
+            }
+        },
+        {
+            "site": "https://az.sputniknews.ru/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 36,
+                "confirmed_count": 0,
+                "failure_count": 38,
+                "total_count": 919
+            }
+        },
+        {
+            "site": "http://www.hetq.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 919
+            }
+        },
+        {
+            "site": "http://www.hraparak.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 919
+            }
+        },
+        {
+            "site": "http://www.news.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 919
+            }
+        },
+        {
+            "site": "http://www.lragir.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 919
+            }
+        },
+        {
+            "site": "http://www.media.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 919
+            }
+        },
+        {
+            "site": "https://fip.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 919
+            }
+        },
+        {
+            "site": "http://www.panorama.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 5,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 918
+            }
+        },
+        {
+            "site": "http://www.tert.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 918
+            }
+        },
+        {
+            "site": "http://www.yerkirmedia.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 918
+            }
+        },
+        {
+            "site": "http://yerevan.today/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 918
+            }
+        },
+        {
+            "site": "https://www.armenpress.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 918
+            }
+        },
+        {
+            "site": "https://www.rferl.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 918
+            }
+        },
+        {
+            "site": "https://lratvakan.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 19,
+                "confirmed_count": 0,
+                "failure_count": 3,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://azertag.az/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 4,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "http://www.bbc.com",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "http://www.bbcazeri.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "http://www.zerkalo.az/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 3,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://4rd.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://armlur.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://golosarmenii.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://haqqin.az",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://hhpress.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://iravunk.com",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://\u041d\u043e\u0432\u043e\u0435 \u0432\u0440\u0435\u043c\u044f\u00a0(The new time)",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 917
+            }
+        },
+        {
+            "site": "https://www.radioaurora.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 916
+            }
+        },
+        {
+            "site": "https://radiovan.fm/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 914
+            }
+        },
+        {
+            "site": "https://www.armnewstv.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 914
+            }
+        },
+        {
+            "site": "https://www.1tv.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 913
+            }
+        },
+        {
+            "site": "https://www.tv.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 912
+            }
+        },
+        {
+            "site": "http://mirtv.ru/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 4,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 911
+            }
+        },
+        {
+            "site": "https://www.kentron.tv/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 911
+            }
+        },
+        {
+            "site": "https://www.shanttv.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 911
+            }
+        },
+        {
+            "site": "https://armeniasputnik.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 67,
+                "confirmed_count": 0,
+                "failure_count": 56,
+                "total_count": 909
+            }
+        },
+        {
+            "site": "https://yerkirmedia.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 909
+            }
+        },
+        {
+            "site": "https://asekose.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 897,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 900
+            }
+        },
+        {
+            "site": "https://voskanapat.info",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 899
+            }
+        },
+        {
+            "site": "https://zham.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 898
+            }
+        },
+        {
+            "site": "http://yerkir.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 7,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 897
+            }
+        },
+        {
+            "site": "https://infocom.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 896
+            }
+        },
+        {
+            "site": "http://www.aniarc.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 895
+            }
+        },
+        {
+            "site": "http://hhk.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 894
+            }
+        },
+        {
+            "site": "http://www.amiab.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 894
+            }
+        },
+        {
+            "site": "https://anc.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 893
+            }
+        },
+        {
+            "site": "http://www.arf.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 890
+            }
+        },
+        {
+            "site": "http://www.arfd.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 889
+            }
+        },
+        {
+            "site": "http://www.arfd.info/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 887
+            }
+        },
+        {
+            "site": "http://www.bhk.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 886
+            }
+        },
+        {
+            "site": "http://www.hayary.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 885
+            }
+        },
+        {
+            "site": "http://www.heritage.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 884
+            }
+        },
+        {
+            "site": "https://www.hhk.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 883
+            }
+        },
+        {
+            "site": "https://www.conservative.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 880,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 881
+            }
+        },
+        {
+            "site": "https://www.bhk.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 880
+            }
+        },
+        {
+            "site": "https://www.hunchak.org.au",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 6,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 878
+            }
+        },
+        {
+            "site": "https://www.hayary.org",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 873
+            }
+        },
+        {
+            "site": "https://www.arf.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 873
+            }
+        },
+        {
+            "site": "https://www.heritage.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 3,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 870
+            }
+        },
+        {
+            "site": "https://www.ajk.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 864
+            }
+        },
+        {
+            "site": "https://www.ulp.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 864
+            }
+        },
+        {
+            "site": "https://www.amiab.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 862
+            }
+        },
+        {
+            "site": "https://www.anc.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 861
+            }
+        },
+        {
+            "site": "https://www.aimusd.org",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 859
+            }
+        },
+        {
+            "site": "http://aiisa.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": true,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 857,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 857
+            }
+        },
+        {
+            "site": "http://www.moh.am",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 856
+            }
+        },
+        {
+            "site": "https://www.armenianchurch.org",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 854
+            }
+        },
+        {
+            "site": "https://www.jw.org/hy/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 8,
+                "total_count": 852
+            }
+        },
+        {
+            "site": "http://www.roundtable-act.am/am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 7,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 795
+            }
+        },
+        {
+            "site": "https://wolarm.org/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 783
+            }
+        },
+        {
+            "site": "http://eca.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 775
+            }
+        },
+        {
+            "site": "https://www.rhemabiblechurch.com/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 1,
+                "total_count": 766
+            }
+        },
+        {
+            "site": "https://ejmiatsin.am/",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 754
+            }
+        },
+        {
+            "site": "http://serakanutyun.org",
+            "lastChecked": "2022-03-27T09:57:37.819574+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 750
+            }
+        }
+    ]
+}

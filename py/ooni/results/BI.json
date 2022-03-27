@@ -1,0 +1,16 @@
+{
+    "_id": "BI",
+    "country": {
+        "name": "Burundi",
+        "alpha2Code": "BI",
+        "alpha3Code": "BDI",
+        "population": 11890781,
+        "flags": {
+            "svg": "https://flagcdn.com/bi.svg",
+            "png": "https://flagcdn.com/w320/bi.png"
+        },
+        "independent": false,
+        "asnProbed": 327799
+    },
+    "sites": []
+}

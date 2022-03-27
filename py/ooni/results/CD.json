@@ -1,0 +1,16 @@
+{
+    "_id": "CD",
+    "country": {
+        "name": "Congo (Democratic Republic of the)",
+        "alpha2Code": "CD",
+        "alpha3Code": "COD",
+        "population": 89561404,
+        "flags": {
+            "svg": "https://flagcdn.com/cd.svg",
+            "png": "https://flagcdn.com/w320/cd.png"
+        },
+        "independent": false,
+        "asnProbed": 29286
+    },
+    "sites": []
+}

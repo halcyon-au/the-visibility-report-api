@@ -1,0 +1,16 @@
+{
+    "_id": "RE",
+    "country": {
+        "name": "R\u00e9union",
+        "alpha2Code": "RE",
+        "alpha3Code": "REU",
+        "population": 840974,
+        "flags": {
+            "svg": "https://flagcdn.com/re.svg",
+            "png": "https://flagcdn.com/w320/re.png"
+        },
+        "independent": false,
+        "asnProbed": 37002
+    },
+    "sites": []
+}

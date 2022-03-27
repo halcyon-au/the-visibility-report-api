@@ -1,0 +1,65 @@
+{
+    "_id": "SN",
+    "country": {
+        "name": "Senegal",
+        "alpha2Code": "SN",
+        "alpha3Code": "SEN",
+        "population": 16743930,
+        "flags": {
+            "svg": "https://flagcdn.com/sn.svg",
+            "png": "https://flagcdn.com/w320/sn.png"
+        },
+        "independent": false,
+        "asnProbed": 8346
+    },
+    "sites": [
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:07:14.829702+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 84
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T10:07:14.829702+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 84
+            }
+        },
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T10:07:14.829702+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 84
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:07:14.829702+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 84
+            }
+        }
+    ]
+}

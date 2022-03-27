@@ -1,0 +1,16 @@
+{
+    "_id": "XK",
+    "country": {
+        "name": "Republic of Kosovo",
+        "alpha2Code": "XK",
+        "alpha3Code": "UNK",
+        "population": 1775378,
+        "flags": {
+            "svg": "https://flagcdn.com/xk.svg",
+            "png": "https://flagcdn.com/w320/xk.png"
+        },
+        "independent": false,
+        "asnProbed": 206262
+    },
+    "sites": []
+}

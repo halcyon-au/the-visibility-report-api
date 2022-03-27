@@ -1,0 +1,16 @@
+{
+    "_id": "MK",
+    "country": {
+        "name": "North Macedonia",
+        "alpha2Code": "MK",
+        "alpha3Code": "MKD",
+        "population": 2083380,
+        "flags": {
+            "svg": "https://flagcdn.com/mk.svg",
+            "png": "https://flagcdn.com/w320/mk.png"
+        },
+        "independent": false,
+        "asnProbed": 6821
+    },
+    "sites": []
+}

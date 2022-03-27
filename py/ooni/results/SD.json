@@ -1,0 +1,16 @@
+{
+    "_id": "SD",
+    "country": {
+        "name": "Sudan",
+        "alpha2Code": "SD",
+        "alpha3Code": "SDN",
+        "population": 43849269,
+        "flags": {
+            "svg": "https://flagcdn.com/sd.svg",
+            "png": "https://flagcdn.com/w320/sd.png"
+        },
+        "independent": false,
+        "asnProbed": 33788
+    },
+    "sites": []
+}

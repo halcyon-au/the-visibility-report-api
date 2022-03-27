@@ -1,0 +1,65 @@
+{
+    "_id": "UZ",
+    "country": {
+        "name": "Uzbekistan",
+        "alpha2Code": "UZ",
+        "alpha3Code": "UZB",
+        "population": 34232050,
+        "flags": {
+            "svg": "https://flagcdn.com/uz.svg",
+            "png": "https://flagcdn.com/w320/uz.png"
+        },
+        "independent": false,
+        "asnProbed": 8193
+    },
+    "sites": [
+        {
+            "site": "https://twitter.com/",
+            "lastChecked": "2022-03-27T10:09:52.005615+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 119,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 202
+            }
+        },
+        {
+            "site": "https://www.facebook.com/",
+            "lastChecked": "2022-03-27T10:09:52.005615+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 201
+            }
+        },
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:09:52.005615+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 199
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:09:52.005615+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 0,
+                "confirmed_count": 0,
+                "failure_count": 2,
+                "total_count": 199
+            }
+        }
+    ]
+}

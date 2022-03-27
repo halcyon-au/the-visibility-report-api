@@ -1,0 +1,16 @@
+{
+    "_id": "BJ",
+    "country": {
+        "name": "Benin",
+        "alpha2Code": "BJ",
+        "alpha3Code": "BEN",
+        "population": 12123198,
+        "flags": {
+            "svg": "https://flagcdn.com/bj.svg",
+            "png": "https://flagcdn.com/w320/bj.png"
+        },
+        "independent": false,
+        "asnProbed": 37090
+    },
+    "sites": []
+}

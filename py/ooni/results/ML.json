@@ -1,0 +1,16 @@
+{
+    "_id": "ML",
+    "country": {
+        "name": "Mali",
+        "alpha2Code": "ML",
+        "alpha3Code": "MLI",
+        "population": 20250834,
+        "flags": {
+            "svg": "https://flagcdn.com/ml.svg",
+            "png": "https://flagcdn.com/w320/ml.png"
+        },
+        "independent": false,
+        "asnProbed": 30985
+    },
+    "sites": []
+}

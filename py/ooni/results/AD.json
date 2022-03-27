@@ -1,0 +1,16 @@
+{
+    "_id": "AD",
+    "country": {
+        "name": "Andorra",
+        "alpha2Code": "AD",
+        "alpha3Code": "AND",
+        "population": 77265,
+        "flags": {
+            "svg": "https://flagcdn.com/ad.svg",
+            "png": "https://flagcdn.com/w320/ad.png"
+        },
+        "independent": false,
+        "asnProbed": 6752
+    },
+    "sites": []
+}

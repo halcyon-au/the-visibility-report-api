@@ -1,0 +1,16 @@
+{
+    "_id": "MN",
+    "country": {
+        "name": "Mongolia",
+        "alpha2Code": "MN",
+        "alpha3Code": "MNG",
+        "population": 3278292,
+        "flags": {
+            "svg": "https://flagcdn.com/mn.svg",
+            "png": "https://flagcdn.com/w320/mn.png"
+        },
+        "independent": false,
+        "asnProbed": 10219
+    },
+    "sites": []
+}

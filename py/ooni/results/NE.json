@@ -1,0 +1,16 @@
+{
+    "_id": "NE",
+    "country": {
+        "name": "Niger",
+        "alpha2Code": "NE",
+        "alpha3Code": "NER",
+        "population": 24206636,
+        "flags": {
+            "svg": "https://flagcdn.com/ne.svg",
+            "png": "https://flagcdn.com/w320/ne.png"
+        },
+        "independent": false,
+        "asnProbed": 37233
+    },
+    "sites": []
+}

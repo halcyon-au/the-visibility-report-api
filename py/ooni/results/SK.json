@@ -1,0 +1,53 @@
+{
+    "_id": "SK",
+    "country": {
+        "name": "Slovakia",
+        "alpha2Code": "SK",
+        "alpha3Code": "SVK",
+        "population": 5458827,
+        "flags": {
+            "svg": "https://flagcdn.com/sk.svg",
+            "png": "https://flagcdn.com/w320/sk.png"
+        },
+        "independent": false,
+        "asnProbed": 5578
+    },
+    "sites": [
+        {
+            "site": "https://www.instagram.com/",
+            "lastChecked": "2022-03-27T10:07:34.547548+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 4,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 115
+            }
+        },
+        {
+            "site": "https://www.youtube.com/",
+            "lastChecked": "2022-03-27T10:07:34.547548+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 2,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 113
+            }
+        },
+        {
+            "site": "https://vimeo.com/",
+            "lastChecked": "2022-03-27T10:07:34.547548+00:00",
+            "blocked": false,
+            "confidence": 0.0,
+            "result": {
+                "anomaly_count": 1,
+                "confirmed_count": 0,
+                "failure_count": 0,
+                "total_count": 50
+            }
+        }
+    ]
+}

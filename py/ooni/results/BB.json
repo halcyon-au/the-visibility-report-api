@@ -1,0 +1,16 @@
+{
+    "_id": "BB",
+    "country": {
+        "name": "Barbados",
+        "alpha2Code": "BB",
+        "alpha3Code": "BRB",
+        "population": 287371,
+        "flags": {
+            "svg": "https://flagcdn.com/bb.svg",
+            "png": "https://flagcdn.com/w320/bb.png"
+        },
+        "independent": false,
+        "asnProbed": 14813
+    },
+    "sites": []
+}
