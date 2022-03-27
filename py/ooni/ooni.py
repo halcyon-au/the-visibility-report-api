@@ -1,3 +1,4 @@
+import json
 import logging
 import requests
 import datetime
@@ -12,7 +13,9 @@ logging.basicConfig(filename='../logs/ooni.log',
 logging.getLogger().addHandler(logging.StreamHandler())
 
 OONI_API_BASE = "https://api.ooni.io/api/_"
+
 OONI_RESULTS_PER_PAGE = 1000
+OONI_PROBE_THRESHOLD = 50
 
 # Builds a request to OONI using dictionary of query parameters
 def get_ooni_json(path: str, query: dict = {}):
@@ -42,21 +45,24 @@ def get_country(country: dict, asn: str):
 
     sites = []
 
-    #while(results):
-    res = get_ooni_json("/website_urls", {
-        "limit": 30, # Returned results per page
-        "offset": 0,
-        "probe_asn": asn,
-        "probe_cc": country["alpha2Code"]
-    })
+    while(results):
+        res = get_ooni_json("/website_urls", {
+            "limit": OONI_RESULTS_PER_PAGE, # Returned results per page
+            "offset": offset,
+            "probe_asn": asn,
+            "probe_cc": country["alpha2Code"]
+        })
 
-    if not res["results"]: # No more results
-        results = False
+        if not res["results"]: # No more results
+            results = False
 
-    sites.extend([build_site_model(site) for site in res["results"]])
-    offset = offset + OONI_RESULTS_PER_PAGE
+        for site in res["results"]:
+            if(site["total_count"] >= OONI_PROBE_THRESHOLD):
+                sites.append(build_site_model(site))
 
-    country["asnProbed"] = asn
+        offset = offset + OONI_RESULTS_PER_PAGE
+
+        country["asnProbed"] = asn
 
     return {
         "country": country,
@@ -101,4 +107,5 @@ if __name__ == "__main__":
         asn = get_asn(country_code)
         c = get_country(country, asn)
 
-        print(c)
+        with open("ru_result.json", "w") as o:
+            json.dump(c, o, indent=4)
