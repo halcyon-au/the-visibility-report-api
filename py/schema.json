@@ -1,0 +1,20 @@
+[
+    {
+        "country": "RU",
+        "sites": [
+            {
+                "site": "www.linkedin.com",
+                "lastUpdated": "2022-03-27T02:18:09+00:00",
+                "blocked": 1.4,
+                "oldestTest": "2022-03-01",
+                "total": {
+                    "tests": 14,
+                    "anomaly": 51
+                },
+                "tests": [
+
+                ]
+            }
+        ]
+    }
+]
