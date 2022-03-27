@@ -4,6 +4,7 @@ import requests
 import datetime
 from requests.models import PreparedRequest
 from country.country import get_countries
+from db.db import update_db
 
 logging.basicConfig(filename='../logs/ooni.log',
                     filemode='a',
@@ -65,6 +66,7 @@ def get_country(country: dict, asn: str):
         country["asnProbed"] = asn
 
     return {
+        "_id": country["alpha2Code"], # Used by MongoDb for the ID
         "country": country,
         "sites": sites
     }
@@ -85,7 +87,7 @@ def build_site_model(site: dict):
         "result": site
     }
 
-
+# Triggered every day?
 if __name__ == "__main__":
     #countries = get_countries()
 
@@ -101,11 +103,17 @@ if __name__ == "__main__":
         "independent": False
     }]
 
+    results = []
+
     for country in countries:
         country_code = country["alpha2Code"]
 
         asn = get_asn(country_code)
         c = get_country(country, asn)
 
-        with open("ru_result.json", "w") as o:
-            json.dump(c, o, indent=4)
+        # with open("ru_result.json", "w") as o:
+        #     json.dump(c, o, indent=4)
+
+        results.append(c)
+
+    update_db(results)
