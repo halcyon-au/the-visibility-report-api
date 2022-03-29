@@ -59,51 +59,29 @@ func AddWebsiteBlock(country string, block string, done chan int) {
 }
 
 // PUT operation i.e replace if it exists
-func AddScore(cs CountryScore) (*mongo.UpdateResult, error) {
+func AddProcess(process ProcessCountryChannelStruct) (*mongo.UpdateResult, error) {
 	log.Println("Adding to scores collection")
 	scoreCollection := database.Collection("scores")
 	opts := options.Replace().SetUpsert(true)
 	insertResult, err := scoreCollection.ReplaceOne(context.TODO(), bson.M{
-		"countryname": strings.ToLower(cs.CountryName),
+		"countryname": strings.ToLower(process.CountryScore.CountryName),
 	}, bson.D{
-		{Key: "countryname", Value: strings.ToLower(cs.CountryName)},
-		{Key: "score", Value: cs.Score},
-		{Key: "ranking", Value: cs.Ranking},
+		{Key: "countryname", Value: strings.ToLower(process.CountryScore.CountryName)},
+		{Key: "score", Value: process.CountryScore.Score},
+		{Key: "ranking", Value: process.CountryScore.Ranking},
+		{Key: "blockedwebsites", Value: process.BlockedWebsites},
+		{Key: "unblockedwebsites", Value: process.UnblockedWebsites},
+		{Key: "websites", Value: process.Websites},
 	}, opts)
 	if err != nil {
 		log.Println(err)
 		return insertResult, err
 	}
-	blockCollection := database.Collection("blockedwebsites")
-	if len(cs.CommonBlocked) > 0 {
-		var operations []mongo.WriteModel
-		for website, is_blocked := range cs.CommonBlocked { // we want to add async, but i dont think mongo can handle 2000 * 52 connections
-			operation := mongo.NewReplaceOneModel()
-			operation.SetFilter(bson.D{
-				{Key: "countryname", Value: strings.ToLower(cs.CountryName)},
-				{Key: "website", Value: strings.ToLower(website)},
-			})
-			operation.SetReplacement(bson.D{
-				{Key: "countryname", Value: strings.ToLower(cs.CountryName)},
-				{Key: "website", Value: strings.ToLower(website)},
-				{Key: "blocked", Value: is_blocked},
-				{Key: "lastupdatedat", Value: time.Now().Unix()},
-			})
-			operation.SetUpsert(true)
-			operations = append(operations, operation)
-		}
-		bulkOption := options.BulkWriteOptions{}
-		bulkOption.SetOrdered(true)
-		_, err = blockCollection.BulkWrite(context.TODO(), operations, &bulkOption)
-		if err != nil {
-			log.Printf("failed to bulk upsert blocks for country %s, error: %s\n", cs.CountryName, err.Error())
-		}
-	}
 	return insertResult, err
 }
 
-func GetScores() ([]CountryNoBlockedScore, error) {
-	var results []CountryNoBlockedScore
+func GetScores() ([]CountryScore, error) {
+	var results []CountryScore
 	log.Println(database)
 	scoreCollection := database.Collection("scores")
 	opts := options.Find()
@@ -121,25 +99,15 @@ func GetScores() ([]CountryNoBlockedScore, error) {
 	return results, nil
 }
 
-func GetScore(countryname string) (CountryScore, error) { // todo add field for recent so we can sort by how recent
-	var result CountryScore
+func GetScore(countryname string) (CountryScoreWBlocked, error) { // todo add field for recent so we can sort by how recent
+	var result CountryScoreWBlocked
 	log.Println(database)
-	blocks, err := GetBlocks(countryname)
-	if err != nil {
-		log.Printf("failed to retrieve blocked website so cant fetch individual score for: %s, error: %s\n", countryname, err.Error())
-		return result, err
-	}
 	scoreCollection := database.Collection("scores")
 	opts := options.FindOne()
-	if err = scoreCollection.FindOne(context.TODO(), bson.D{{Key: "countryname", Value: strings.ToLower(countryname)}}, opts).Decode(&result); err != nil {
+	if err := scoreCollection.FindOne(context.TODO(), bson.D{{Key: "countryname", Value: strings.ToLower(countryname)}}, opts).Decode(&result); err != nil {
 		log.Printf("failed to retrieve country: %s, err: %s\n", countryname, err.Error())
 		return result, err
 	}
-	commonBlocked := map[string]bool{}
-	for _, block := range blocks {
-		commonBlocked[block.Website] = block.Blocked
-	}
-	result.CommonBlocked = commonBlocked
 	result.CountryName = strings.Title(result.CountryName)
 	return result, nil
 }
