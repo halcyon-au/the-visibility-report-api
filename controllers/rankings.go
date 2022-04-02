@@ -184,7 +184,7 @@ func RankingsRoutine() {
 	})
 	for i, process := range processArr {
 		cpy := process
-		cpy.CountryScore.Ranking = len(processArr) - i
+		cpy.CountryScore.Ranking = i + 1
 		go func(process ProcessCountryChannelStruct, processes chan ProcessCountryChannelStruct) {
 			_, err := AddProcess(process)
 			if err != nil {
