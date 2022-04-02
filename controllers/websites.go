@@ -20,7 +20,7 @@ func readTopWebsitesCSV(fileloc string) string {
 }
 
 func BlockedWebsites(e *echo.Echo) {
-	log.Println("🚀 /api/v1/blockedwebsites/{countryname - string} - GET - get all blocks for countryname")
+	log.Println("🚀 /api/v1/blocked/{countryname - string}/{website - string} - GET - find closest block to website for countryname")
 	e.GET("/api/v1/blocked/:countryname/:website", getBlocked())
 }
 
