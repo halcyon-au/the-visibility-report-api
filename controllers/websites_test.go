@@ -19,6 +19,15 @@ func TestWebsiteProcessing(t *testing.T) {
 	// }
 }
 
+func TestWebsiteStripping(t *testing.T) {
+	if res := StripWebsite("https://www.google.com/"); res != "google.com" {
+		t.Fatalf(`expected StripWebsite("https://www.google.com/") == "google.com", actually got: %s`, res)
+	}
+	if res := StripWebsite("http://www.google.com/"); res != "google.com" {
+		t.Fatalf(`expected StripWebsite("http://www.google.com/") == "google.com", actually got: %s`, res)
+	}
+}
+
 func TestReadWebsites(t *testing.T) {
 	topWebsitesBlob := readTopWebsitesCSV("../static/topwebsites.csv")
 	if topWebsitesBlob == "" {

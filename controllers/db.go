@@ -71,6 +71,7 @@ func AddProcess(process ProcessCountryChannelStruct) (*mongo.UpdateResult, error
 		{Key: "ranking", Value: process.CountryScore.Ranking},
 		{Key: "blockedwebsites", Value: process.BlockedWebsites},
 		{Key: "unblockedwebsites", Value: process.UnblockedWebsites},
+		{Key: "possiblewebsites", Value: process.PossibleWebsites},
 		{Key: "websites", Value: process.Websites},
 	}, opts)
 	if err != nil {
@@ -94,7 +95,7 @@ func GetScores() ([]CountryScore, error) {
 		return results, fmt.Errorf("failed to retrieve scores - %s", err.Error())
 	}
 	sort.Slice(results, func(i, j int) bool {
-		return results[i].Ranking > results[j].Ranking
+		return results[i].Ranking < results[j].Ranking
 	})
 	return results, nil
 }
@@ -112,19 +113,10 @@ func GetScore(countryname string) (CountryScoreWBlocked, error) { // todo add fi
 	return result, nil
 }
 
-func GetBlocks(countryname string) ([]BlockedWebsite, error) { // todo add field for recent so we can sort by how recent
-	var results []BlockedWebsite
-	log.Println(database)
-	blockCollection := database.Collection("blockedwebsites")
-	opts := options.Find()
-	// {Key: "blocked", Value: true}
-	cursor, err := blockCollection.Find(context.TODO(), bson.D{{Key: "countryname", Value: strings.ToLower(countryname)}}, opts)
+func GetBlocks(countryname string) ([]string, error) { // todo add field for recent so we can sort by how recent
+	score, err := GetScore(countryname)
 	if err != nil {
-		return results, fmt.Errorf("failed to retrieve blocked websites - %s", err.Error())
+		return []string{}, err
 	}
-	if err = cursor.All(context.TODO(), &results); err != nil {
-		return results, fmt.Errorf("failed to retrieve blocked websites - %s", err.Error())
-	}
-	log.Println(results)
-	return results, nil
+	return score.BlockedWebsites, nil
 }
