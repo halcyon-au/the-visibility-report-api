@@ -16,6 +16,8 @@ services:
       - db
   db:
     image: mongo
+    ports:
+      - "27017:27017"
     volumes:
       - api_db_data:/data/db
     environment:

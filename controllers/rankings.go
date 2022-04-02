@@ -2,6 +2,7 @@ package controllers
 
 import (
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"log"
@@ -16,6 +17,14 @@ import (
 )
 
 const ROUTINE_TIME = 24 * time.Hour // EVERY DAY WE DO THIS BECAUSE IT OWNS THE OONI API
+
+type WebsiteStatus = int8
+
+const (
+	Unblocked WebsiteStatus = 0
+	Blocked   WebsiteStatus = 1
+	Possible  WebsiteStatus = 2
+)
 
 type Country struct {
 	Alpha_2 string
@@ -45,6 +54,7 @@ type CountryScoreWBlocked struct {
 	Ranking           int
 	BlockedWebsites   []string
 	UnblockedWebsites []string
+	PossibleWebsites  []string
 	Websites          []string
 }
 type WebsiteNetwork struct {
@@ -65,6 +75,7 @@ type ProcessCountryChannelStruct struct {
 	CountryScore      CountryScore
 	BlockedWebsites   []string
 	UnblockedWebsites []string
+	PossibleWebsites  []string
 	Websites          []string
 }
 
@@ -86,9 +97,18 @@ func fetchCountries() CountriesResponse {
 	return countries
 }
 
-//
-func processWebsite(wSiteStruct map[string]interface{}) bool {
-	return (wSiteStruct["confirmed_count"].(float64) / wSiteStruct["total_count"].(float64)) >= 0.5
+func processWebsite(wSiteStruct map[string]interface{}) (WebsiteStatus, error) {
+	if wSiteStruct["total_count"].(float64) < 20 {
+		return Unblocked, errors.New("not enough data to be confident")
+	}
+	confirmed_percent := wSiteStruct["confirmed_count"].(float64) / wSiteStruct["total_count"].(float64)
+	possible_percent := wSiteStruct["anomaly_count"].(float64) / wSiteStruct["total_count"].(float64)
+	if confirmed_percent >= 0.5 {
+		return Blocked, nil
+	} else if wSiteStruct["anomaly_count"].(float64) > 0 && possible_percent >= 0.8 {
+		return Possible, nil
+	}
+	return Unblocked, nil
 }
 
 // TODO: Exponential Backoff with Circuit Breaker pattern
@@ -119,6 +139,7 @@ func processCountry(country Country, scores chan ProcessCountryChannelStruct, CO
 			CountryScore:      CountryScore{CountryName: country.Name, Score: 0},
 			BlockedWebsites:   []string{},
 			UnblockedWebsites: []string{},
+			PossibleWebsites:  []string{},
 			Websites:          []string{},
 		}
 		return
@@ -141,20 +162,27 @@ func processCountry(country Country, scores chan ProcessCountryChannelStruct, CO
 	json.Unmarshal(body, &tmpStruct2)
 	blocked_websites := []string{}
 	unblocked_websites := []string{}
+	possible_websites := []string{}
 	webs := []string{}
 	for _, c := range tmpStruct2["results"].([]interface{}) {
-		if processWebsite(c.(map[string]interface{})) {
-			blocked_websites = append(blocked_websites, strings.ToLower(c.(map[string]interface{})["input"].(string)))
-		} else {
-			unblocked_websites = append(unblocked_websites, strings.ToLower(c.(map[string]interface{})["input"].(string)))
+		status, err := processWebsite(c.(map[string]interface{}))
+		if err == nil {
+			if status == Blocked {
+				blocked_websites = append(blocked_websites, strings.ToLower(c.(map[string]interface{})["input"].(string)))
+			} else if status == Possible {
+				possible_websites = append(possible_websites, strings.ToLower(c.(map[string]interface{})["input"].(string)))
+			} else {
+				unblocked_websites = append(unblocked_websites, strings.ToLower(c.(map[string]interface{})["input"].(string)))
+			}
 		}
 		webs = append(webs, strings.ToLower(c.(map[string]interface{})["input"].(string)))
 	}
 	log.Printf("Country Worker Finished For Country: %s\n", country.Name)
 	scores <- ProcessCountryChannelStruct{
-		CountryScore:      CountryScore{CountryName: country.Name, Score: len(blocked_websites)},
+		CountryScore:      CountryScore{CountryName: country.Name, Score: len(blocked_websites) + len(possible_websites)},
 		BlockedWebsites:   blocked_websites,
 		UnblockedWebsites: unblocked_websites,
+		PossibleWebsites:  possible_websites,
 		Websites:          webs,
 	}
 }
