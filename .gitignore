@@ -1,2 +1,5 @@
-visibilityreport
 mongodb
+# Binary Files
+visibilityreport
+cmd/api/api
+cmd/worker/worker
