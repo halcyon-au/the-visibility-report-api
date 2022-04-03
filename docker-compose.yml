@@ -1,11 +1,11 @@
 version: "3.9"
 services:
-  backend:
+  api:
     build:
       context: .
     volumes:
       - '.:/app'
-    entrypoint: [ "sh", "./init.sh" ]
+    entrypoint: [ "sh", "./start.sh" ]
     ports:
       - "1323:1323"
     environment:
@@ -14,6 +14,21 @@ services:
       - mode=local
     depends_on:
       - db
+      - worker
+  worker:
+    build:
+      context: .
+    volumes:
+      - '.:/app'
+    entrypoint: [ "sh", "./start.sh", "worker" ]
+    environment:
+      - mongousername=mongoadmin
+      - mongopassword=secret
+      - mode=local
+    depends_on:
+      - db
+    logging:
+      driver: none # Change This If You Want To Read Logs
   db:
     image: mongo
     ports:
