@@ -26,7 +26,10 @@ func IntializeDatabase() error {
 	if !found {
 		return fmt.Errorf("password is not defined for mongopassword env variable")
 	}
-	hostname := "db"
+	hostname, found := os.LookupEnv("mongohostname")
+	if !found {
+		return fmt.Errorf("mongohostname is not defined for mongohostname env variable")
+	}
 	var err error
 	client, err = mongo.NewClient(options.Client().ApplyURI(fmt.Sprintf("mongodb://%s:%s@%s", username, password, hostname)))
 	if err != nil {
