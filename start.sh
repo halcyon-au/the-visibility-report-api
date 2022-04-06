@@ -1,6 +1,5 @@
 #!/bin/sh
-
-if [ $1 = "worker" ]; then
+if [ "$1" = "worker" ]; then
   cd ./cmd/worker
   go build .
   ./worker

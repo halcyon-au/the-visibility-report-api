@@ -5,13 +5,14 @@ services:
       context: .
     volumes:
       - '.:/app'
-    entrypoint: [ "sh", "./start.sh" ]
+    command: [ "sh", "./start.sh" ] # entrypoint means you cant debug with docker-compose run api sh
     ports:
       - "1323:1323"
     environment:
       - mongousername=mongoadmin
       - mongopassword=secret
       - mode=local
+      - mongohostname=db
     depends_on:
       - db
       - worker
@@ -20,11 +21,12 @@ services:
       context: .
     volumes:
       - '.:/app'
-    entrypoint: [ "sh", "./start.sh", "worker" ]
+    command: [ "sh", "./start.sh", "worker" ] # entrypoint means you cant debug with docker-compose run api sh
     environment:
       - mongousername=mongoadmin
       - mongopassword=secret
       - mode=local
+      - mongohostname=db
     depends_on:
       - db
     logging:
