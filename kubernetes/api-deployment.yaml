@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: visibilityreportapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: visibilityreportapi
+  template:
+    metadata:
+      labels:
+        app: visibilityreportapi
+    spec:
+      containers:
+      - name: visibilityreportapi
+        image: ghcr.io/halcyon-au/the-visibility-report-api:main
+        imagePullPolicy: Always
+        ports:
+          - containerPort: 1323
+        env:
+          - name: mongousername
+            valueFrom:
+              secretKeyRef:
+                name: api-secrets
+                key: mongousername
+                optional: false
+          - name: mongopassword
+            valueFrom:
+              secretKeyRef:
+                name: api-secrets
+                key: mongopassword
+                optional: false
+          - name: mode
+            value: local
+          - name: mongohostname
+            value: mongodb
+        command: ["sh", "./start.sh"]
+      imagePullSecrets:
+        - name: dockerconfigjson-github-com
+      volumes:
+      - name: mongodb-persistent-storage
+        persistentVolumeClaim:
+          claimName: mongodb-pv-claim
