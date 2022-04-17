@@ -1,21 +1,21 @@
 version: "3.9"
 services:
-  api:
-    build:
-      context: .
-    volumes:
-      - '.:/app'
-    command: [ "sh", "./start.sh" ] # entrypoint means you cant debug with docker-compose run api sh
-    ports:
-      - "1323:1323"
-    environment:
-      - mongousername=mongoadmin
-      - mongopassword=secret
-      - mode=local
-      - mongohostname=db
-    depends_on:
-      - db
-      - worker
+  # api:
+  #   build:
+  #     context: .
+  #   volumes:
+  #     - '.:/app'
+  #   command: [ "sh", "./start.sh" ] # entrypoint means you cant debug with docker-compose run api sh
+  #   ports:
+  #     - "1323:1323"
+  #   environment:
+  #     - mongousername=mongoadmin
+  #     - mongopassword=secret
+  #     - mode=local
+  #     - mongohostname=db
+  #   depends_on:
+  #     - db
+  #     - worker
   worker:
     build:
       context: .
@@ -29,8 +29,8 @@ services:
       - mongohostname=db
     depends_on:
       - db
-    logging:
-      driver: none # Change This If You Want To Read Logs
+    # logging:
+    #   driver: none # Change This If You Want To Read Logs
   db:
     image: mongo
     ports:

@@ -191,7 +191,7 @@ func processCountry(country Country, scores chan ProcessCountryChannelStruct, CO
 // And save to db
 func RankingsRoutine() {
 	log.Println("Reading common_websites from csv file")
-	common_websites := strings.Split(readTopWebsitesCSV("static/topwebsites.csv"), "\n")
+	common_websites := strings.Split(readTopWebsitesCSV("/app/static/topwebsites.csv"), "\n")
 	start := time.Now()
 	log.Println("Rankings Routine Begun")
 	// Country Website Blockeds
