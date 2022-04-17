@@ -38,7 +38,3 @@ spec:
         command: ["sh", "./start.sh"]
       imagePullSecrets:
         - name: dockerconfigjson-github-com
-      volumes:
-      - name: mongodb-persistent-storage
-        persistentVolumeClaim:
-          claimName: mongodb-pv-claim
