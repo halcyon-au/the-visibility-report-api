@@ -2,6 +2,7 @@ package main
 
 import (
 	"log"
+	"os"
 	"visibilityreport/controllers"
 )
 
@@ -10,6 +11,8 @@ func main() {
 	if err := controllers.IntializeDatabase(); err != nil {
 		panic(err)
 	}
-	controllers.RankingsRoutine()
+	quitChannel := make(chan os.Signal, 1)
+	go controllers.RankingsRoutine(quitChannel)
+	<-quitChannel
 	log.Fatalf("Worker Dying")
 }

@@ -8,9 +8,12 @@ import (
 	"log"
 	"math"
 	"net/http"
+	"os"
+	"os/signal"
 	"sort"
 	"strconv"
 	"strings"
+	"syscall"
 	"time"
 
 	"github.com/labstack/echo/v4"
@@ -189,7 +192,13 @@ func processCountry(country Country, scores chan ProcessCountryChannelStruct, CO
 
 // Every X Hours Recalculate Rankings
 // And save to db
-func RankingsRoutine() {
+func RankingsRoutine(exitChannel chan os.Signal) {
+	defer func() {
+		if r := recover(); r != nil {
+			fmt.Println("I am panicing, as such I will now terminate the worker", r)
+			signal.Notify(exitChannel, syscall.SIGINT, syscall.SIGTERM)
+		}
+	}()
 	log.Println("Reading common_websites from csv file")
 	common_websites := strings.Split(readTopWebsitesCSV("/app/static/topwebsites.csv"), "\n")
 	start := time.Now()
@@ -227,7 +236,9 @@ func RankingsRoutine() {
 	}
 	// Website Blocked Stats
 	// https://api.ooni.io/api/v1/measurements?limit=50&failure=false&domain=www.linkedin.com&probe_asn=12389&test_name=web_connectivity&since=2022-02-18&until=2022-03-21
-	time.AfterFunc(ROUTINE_TIME, RankingsRoutine)
+	time.AfterFunc(ROUTINE_TIME, func() {
+		RankingsRoutine(exitChannel)
+	})
 	t := time.Now()
 	elapsed := t.Sub(start)
 	log.Printf("Rankings Routine Ended, It Took %s, Sleeping for %sms\n", elapsed.String(), ROUTINE_TIME.String())
