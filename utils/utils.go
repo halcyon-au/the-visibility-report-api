@@ -34,6 +34,5 @@ func RetrieveOrigins() func(string) (bool, error) {
 		return RegexOriginWrapper(`^https?:\/\/halcyon.*$`)
 	default:
 		return RegexOriginWrapper(`^https?:\/\/halcyon.*$`)
-		// return RegexOriginWrapper(`^https?:\/\/halycon.*$`)
 	}
 }
