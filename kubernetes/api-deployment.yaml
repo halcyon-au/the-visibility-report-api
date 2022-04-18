@@ -32,7 +32,7 @@ spec:
                 key: mongopassword
                 optional: false
           - name: mode
-            value: local
+            value: production
           - name: mongohostname
             value: mongodb
         command: ["sh", "./start.sh"]
