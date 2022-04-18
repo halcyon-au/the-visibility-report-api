@@ -31,8 +31,9 @@ func RetrieveOrigins() func(string) (bool, error) {
 	case "local":
 		return RegexOriginWrapper(`^http:\/\/localhost:[0-9]+$`)
 	case "development":
-		return RegexOriginWrapper(`^https?:\/\/halycon.*$`)
+		return RegexOriginWrapper(`^https?:\/\/halcyon.*$`)
 	default:
-		return RegexOriginWrapper(`^https?:\/\/halycon.*$`)
+		return RegexOriginWrapper(`^https?:\/\/halcyon.*$`)
+		// return RegexOriginWrapper(`^https?:\/\/halycon.*$`)
 	}
 }
