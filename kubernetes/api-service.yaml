@@ -1,0 +1,10 @@
+kind: Service
+apiVersion: v1
+metadata:
+  name: visibilityreportapi-service
+spec:
+  selector:
+      app: visibilityreportapi
+  type: NodePort
+  ports:
+    - port: 1323
