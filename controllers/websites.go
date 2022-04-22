@@ -21,16 +21,16 @@ const (
 )
 
 type GetBlockedResponse struct {
-	IsBlocked   bool
-	MatchedWith string
-	Similarity  float64
+	IsBlocked   bool    `json:"isBlocked"`
+	MatchedWith string  `json:"matchedWith"`
+	Similarity  float64 `json:"similarity"`
 }
 
 type GetStatusResponse struct {
-	IsBlocked   bool
-	MatchedWith string
-	Similarity  float64
-	status      string
+	IsBlocked   bool    `json:"isBlocked"`
+	MatchedWith string  `json:"matchedWith"`
+	Similarity  float64 `json:"similarity"`
+	Status      string  `json:"status"`
 }
 
 func readTopWebsitesCSV(fileloc string) string {
@@ -135,13 +135,13 @@ func getStatus() echo.HandlerFunc {
 		}
 		switch status {
 		case Block:
-			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, status: "Blocked"})
+			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, Status: "Blocked"})
 		case Unblock:
-			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, status: "Unblocked"})
+			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, Status: "Unblocked"})
 		case Unknown:
-			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, status: "Unknown"})
+			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, Status: "Unknown"})
 		case Possib:
-			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, status: "Possible"})
+			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, Status: "Possible"})
 		default:
 			panic("that value should never happen")
 		}

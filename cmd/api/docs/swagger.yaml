@@ -85,7 +85,27 @@ paths:
       summary: Find closest block to website for countryname
       tags:
       - websites
-  /api/v1/countries/{country}:
+  /api/v1/countries/rankings:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/controllers.CountryScore'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Retrieve All Countries Ranked (Lower the number the worse)
+      tags:
+      - rankings
+  /api/v1/countries/rankings/{country}:
     get:
       description: Get ranking details by country
       parameters:
@@ -108,26 +128,6 @@ paths:
               type: string
             type: object
       summary: Retrieve Country Details
-      tags:
-      - rankings
-  /api/v1/countries/rankings:
-    get:
-      produces:
-      - application/json
-      responses:
-        "200":
-          description: OK
-          schema:
-            items:
-              $ref: '#/definitions/controllers.CountryScore'
-            type: array
-        "500":
-          description: Internal Server Error
-          schema:
-            additionalProperties:
-              type: string
-            type: object
-      summary: Retrieve All Countries Ranked (Lower the number the worse)
       tags:
       - rankings
   /api/v1/hb:

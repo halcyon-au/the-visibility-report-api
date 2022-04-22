@@ -91,7 +91,7 @@ const docTemplate = `{
                 }
             }
         },
-        "/api/v1/countries/{country}": {
+        "/api/v1/countries/rankings/{country}": {
             "get": {
                 "description": "Get ranking details by country",
                 "produces": [
