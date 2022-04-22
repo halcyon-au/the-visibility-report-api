@@ -49,8 +49,18 @@ jobs:
           region: "${{ secrets.OCI_REGION }}"
           api_key: ${{ secrets.OCI_API_KEY }}
           verbose: true
-      - uses: actions-hub/kubectl@master
-        env:
-          KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_DATA }}
-        with:
-          args: get pods
+      - name: 'Install kubectl'
+        run: |
+          mkdir /tmp/.kube
+          curl -L -O "https://dl.k8s.io/release/v1.22.4/bin/linux/amd64/kubectl" -o kubectl
+          chmod +x kubectl
+          mv kubectl /usr/local/bin
+      - name: 'Test Installs'
+        run: |
+          oci -v
+          kubectl version
+      - name: 'Setup OKE'
+        run: |
+          oci ce cluster create-kubeconfig --cluster-id ocid1.cluster.oc1.ap-sydney-1.aaaaaaaaiikepc65trfdfm5ywmldob34jcllkifaiifo634hecxa5aq3v3jq --file $HOME/.kube/config --region ap-sydney-1 --token-version 2.0.0  --kube-endpoint PUBLIC_ENDPOINT
+          export KUBECONFIG=$HOME/.kube/config
+          echo $KUBECONFIG
