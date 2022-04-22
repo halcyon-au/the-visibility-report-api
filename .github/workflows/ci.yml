@@ -66,12 +66,12 @@ jobs:
           kubectl apply -f kubernetes/mongo-service.yaml
       - name: '🔧 Apply Infrastructure - API 🔧'
         run: |
-          kubectl apply -f api-deployment.yaml
-          kubectl apply -f api-service.yaml
-          kubectl apply -f api-issuer.yaml
-          kubectl apply -f api-ingress.yaml
+          kubectl apply -f kubernetes/api-deployment.yaml
+          kubectl apply -f kubernetes/api-service.yaml
+          kubectl apply -f kubernetes/api-issuer.yaml
+          kubectl apply -f kubernetes/api-ingress.yaml
       - name: '🔧 Apply Infrastructure - Worker 🔧'
         run: |
-          kubectl apply -f worker-deployment.yaml
+          kubectl apply -f kubernetes/worker-deployment.yaml
       - name: '🚀 Test Kubernetes 🚀'
         run: kubectl get pods
