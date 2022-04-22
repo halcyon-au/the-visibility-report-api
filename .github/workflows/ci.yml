@@ -59,4 +59,5 @@ jobs:
         run: |
           oci ce cluster create-kubeconfig --cluster-id ocid1.cluster.oc1.ap-sydney-1.aaaaaaaaiikepc65trfdfm5ywmldob34jcllkifaiifo634hecxa5aq3v3jq --file $HOME/.kube/config --region ap-sydney-1 --token-version 2.0.0  --kube-endpoint PUBLIC_ENDPOINT
           export KUBECONFIG=$HOME/.kube/config
-          echo $KUBECONFIG
+      - name: 'Test Kubernetes'
+        run: kubectl get pods
