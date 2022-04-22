@@ -5,8 +5,12 @@ import (
 	"visibilityreport/controllers"
 	"visibilityreport/utils"
 
+	_ "visibilityreport/cmd/api/docs"
+
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"
+
+	echoSwagger "github.com/swaggo/echo-swagger"
 )
 
 func main() {
@@ -25,6 +29,9 @@ func main() {
 	controllers.HeartBeat(e)
 	controllers.Rankings(e)
 	controllers.BlockedWebsites(e)
+
+	e.GET("/swagger/*", echoSwagger.WrapHandler)
+
 	e.Static("/", "static")
 	e.Logger.Fatal(e.Start(":1323"))
 }
