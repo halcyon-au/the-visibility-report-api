@@ -13,6 +13,8 @@ import (
 	echoSwagger "github.com/swaggo/echo-swagger"
 )
 
+// @title    The Visibility Report API
+// @version  1.0
 func main() {
 	log.Println("Starting API")
 	if err := controllers.IntializeDatabase(); err != nil {

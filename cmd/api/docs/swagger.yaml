@@ -34,18 +34,34 @@ definitions:
         type: array
     type: object
   controllers.GetBlockedResponse:
+    properties:
+      isBlocked:
+        type: boolean
+      matchedWith:
+        type: string
+      similarity:
+        type: number
     type: object
   controllers.GetStatusResponse:
+    properties:
+      isBlocked:
+        type: boolean
+      matchedWith:
+        type: string
+      similarity:
+        type: number
     type: object
 info:
   contact: {}
+  title: The Visibility Report API
+  version: "1.0"
 paths:
   /api/v1/blocked/{countryname}/{website}:
     get:
       parameters:
       - description: Country Name
         in: path
-        name: country
+        name: countryname
         required: true
         type: string
       - description: Website
@@ -133,7 +149,7 @@ paths:
       parameters:
       - description: Country Name
         in: path
-        name: country
+        name: countryname
         required: true
         type: string
       - description: Website
@@ -154,7 +170,8 @@ paths:
             additionalProperties:
               type: string
             type: object
-      summary: Find closest block to website for countryname
+      summary: find closest match to website for countryname, if there is match in
+        blocked/unblocked return blocked/unblocked else return unknown
       tags:
       - websites
 swagger: "2.0"

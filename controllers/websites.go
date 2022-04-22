@@ -21,15 +21,15 @@ const (
 )
 
 type GetBlockedResponse struct {
-	isBlocked   bool
-	matchedWith string
-	similarity  float64
+	IsBlocked   bool
+	MatchedWith string
+	Similarity  float64
 }
 
 type GetStatusResponse struct {
-	isBlocked   bool
-	matchedWith string
-	similarity  float64
+	IsBlocked   bool
+	MatchedWith string
+	Similarity  float64
 	status      string
 }
 
@@ -117,14 +117,14 @@ func getStatusViaStripped(countryname string, website string) (string, float64, 
 }
 
 // GetStatus godoc
-// @Summary      Find closest block to website for countryname
-// @Tags         websites
-// @Produce      json
-// @Param        country   path      string  true  "Country Name"
-// @Param        website   path      string  true  "Website"
-// @Success      200  {object}  GetStatusResponse
-// @Failure      400  {object}  map[string]string
-// @Router      /api/v1/status/{countryname}/{website} [get]
+// @Summary  find closest match to website for countryname, if there is match in blocked/unblocked return blocked/unblocked else return unknown
+// @Tags     websites
+// @Param    countryname  path  string  true  "Country Name"
+// @Param    website      path  string  true  "Website"
+// @Produce  json
+// @Success  200  {object}  GetStatusResponse
+// @Failure  400  {object}  map[string]string
+// @Router   /api/v1/status/{countryname}/{website} [get]
 func getStatus() echo.HandlerFunc {
 	return func(c echo.Context) error {
 		country := c.Param("countryname")
@@ -135,13 +135,13 @@ func getStatus() echo.HandlerFunc {
 		}
 		switch status {
 		case Block:
-			return c.JSON(200, GetStatusResponse{isBlocked: matchedWith != "", matchedWith: matchedWith, similarity: similarity, status: "Blocked"})
+			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, status: "Blocked"})
 		case Unblock:
-			return c.JSON(200, GetStatusResponse{isBlocked: matchedWith != "", matchedWith: matchedWith, similarity: similarity, status: "Unblocked"})
+			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, status: "Unblocked"})
 		case Unknown:
-			return c.JSON(200, GetStatusResponse{isBlocked: matchedWith != "", matchedWith: matchedWith, similarity: similarity, status: "Unknown"})
+			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, status: "Unknown"})
 		case Possib:
-			return c.JSON(200, GetStatusResponse{isBlocked: matchedWith != "", matchedWith: matchedWith, similarity: similarity, status: "Possible"})
+			return c.JSON(200, GetStatusResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity, status: "Possible"})
 		default:
 			panic("that value should never happen")
 		}
@@ -150,14 +150,14 @@ func getStatus() echo.HandlerFunc {
 
 // Using hamming simularity we find the closest similar website in blocked list
 // GetBlocked godoc
-// @Summary      Find closest block to website for countryname
-// @Tags         websites
-// @Produce      json
-// @Param        country   path      string  true  "Country Name"
-// @Param        website   path      string  true  "Website"
-// @Success      200  {object}  GetBlockedResponse
-// @Failure      500  {object}  map[string]string
-// @Router      /api/v1/blocked/{countryname}/{website} [get]
+// @Summary  Find closest block to website for countryname
+// @Tags     websites
+// @Param    countryname  path  string  true  "Country Name"
+// @Param    website      path  string  true  "Website"
+// @Produce  json
+// @Success  200  {object}  GetBlockedResponse
+// @Failure  500  {object}  map[string]string
+// @Router   /api/v1/blocked/{countryname}/{website} [get]
 func getBlocked() echo.HandlerFunc {
 	return func(c echo.Context) error {
 		country := c.Param("countryname")
@@ -166,6 +166,6 @@ func getBlocked() echo.HandlerFunc {
 		if err != nil {
 			return c.JSON(400, map[string]interface{}{"error": err.Error()})
 		}
-		return c.JSON(200, GetBlockedResponse{isBlocked: matchedWith != "", matchedWith: matchedWith, similarity: similarity})
+		return c.JSON(200, GetBlockedResponse{IsBlocked: matchedWith != "", MatchedWith: matchedWith, Similarity: similarity})
 	}
 }

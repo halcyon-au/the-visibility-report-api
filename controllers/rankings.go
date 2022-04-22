@@ -245,12 +245,12 @@ func RankingsRoutine(exitChannel chan os.Signal) {
 }
 
 // GetRankings godoc
-// @Summary      Retrieve All Countries Ranked (Lower the number the worse)
-// @Tags         rankings
-// @Produce      json
-// @Success      200  {object}  []CountryScore
-// @Failure      500  {object}  map[string]string
-// @Router       /api/v1/countries/rankings [get]
+// @Summary  Retrieve All Countries Ranked (Lower the number the worse)
+// @Tags     rankings
+// @Produce  json
+// @Success  200  {object}  []CountryScore
+// @Failure  500  {object}  map[string]string
+// @Router   /api/v1/countries/rankings [get]
 func getRankings() echo.HandlerFunc {
 	return func(c echo.Context) error {
 		scores, err := GetScores()
@@ -269,9 +269,9 @@ func getRankings() echo.HandlerFunc {
 // @Tags         rankings
 // @Description  Get ranking details by country
 // @Produce      json
-// @Param        country   path      string  true  "Country Name"
-// @Success      200  {object}  CountryScoreWBlocked
-// @Failure      500  {object}  map[string]string
+// @Param        country  path      string  true  "Country Name"
+// @Success      200      {object}  CountryScoreWBlocked
+// @Failure      500      {object}  map[string]string
 // @Router       /api/v1/countries/{country} [get]
 func getRanking() echo.HandlerFunc {
 	return func(c echo.Context) error {

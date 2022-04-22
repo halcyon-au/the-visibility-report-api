@@ -1,7 +1,9 @@
 {
     "swagger": "2.0",
     "info": {
-        "contact": {}
+        "title": "The Visibility Report API",
+        "contact": {},
+        "version": "1.0"
     },
     "paths": {
         "/api/v1/blocked/{countryname}/{website}": {
@@ -17,7 +19,7 @@
                     {
                         "type": "string",
                         "description": "Country Name",
-                        "name": "country",
+                        "name": "countryname",
                         "in": "path",
                         "required": true
                     },
@@ -147,12 +149,12 @@
                 "tags": [
                     "websites"
                 ],
-                "summary": "Find closest block to website for countryname",
+                "summary": "find closest match to website for countryname, if there is match in blocked/unblocked return blocked/unblocked else return unknown",
                 "parameters": [
                     {
                         "type": "string",
                         "description": "Country Name",
-                        "name": "country",
+                        "name": "countryname",
                         "in": "path",
                         "required": true
                     },
@@ -238,10 +240,32 @@
             }
         },
         "controllers.GetBlockedResponse": {
-            "type": "object"
+            "type": "object",
+            "properties": {
+                "isBlocked": {
+                    "type": "boolean"
+                },
+                "matchedWith": {
+                    "type": "string"
+                },
+                "similarity": {
+                    "type": "number"
+                }
+            }
         },
         "controllers.GetStatusResponse": {
-            "type": "object"
+            "type": "object",
+            "properties": {
+                "isBlocked": {
+                    "type": "boolean"
+                },
+                "matchedWith": {
+                    "type": "string"
+                },
+                "similarity": {
+                    "type": "number"
+                }
+            }
         }
     }
 }

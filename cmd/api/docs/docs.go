@@ -29,7 +29,7 @@ const docTemplate = `{
                     {
                         "type": "string",
                         "description": "Country Name",
-                        "name": "country",
+                        "name": "countryname",
                         "in": "path",
                         "required": true
                     },
@@ -159,12 +159,12 @@ const docTemplate = `{
                 "tags": [
                     "websites"
                 ],
-                "summary": "Find closest block to website for countryname",
+                "summary": "find closest match to website for countryname, if there is match in blocked/unblocked return blocked/unblocked else return unknown",
                 "parameters": [
                     {
                         "type": "string",
                         "description": "Country Name",
-                        "name": "country",
+                        "name": "countryname",
                         "in": "path",
                         "required": true
                     },
@@ -250,21 +250,43 @@ const docTemplate = `{
             }
         },
         "controllers.GetBlockedResponse": {
-            "type": "object"
+            "type": "object",
+            "properties": {
+                "isBlocked": {
+                    "type": "boolean"
+                },
+                "matchedWith": {
+                    "type": "string"
+                },
+                "similarity": {
+                    "type": "number"
+                }
+            }
         },
         "controllers.GetStatusResponse": {
-            "type": "object"
+            "type": "object",
+            "properties": {
+                "isBlocked": {
+                    "type": "boolean"
+                },
+                "matchedWith": {
+                    "type": "string"
+                },
+                "similarity": {
+                    "type": "number"
+                }
+            }
         }
     }
 }`
 
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
-	Version:          "",
+	Version:          "1.0",
 	Host:             "",
 	BasePath:         "",
 	Schemes:          []string{},
-	Title:            "",
+	Title:            "The Visibility Report API",
 	Description:      "",
 	InfoInstanceName: "swagger",
 	SwaggerTemplate:  docTemplate,
