@@ -48,10 +48,12 @@ jobs:
           curl -L -O https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh
           chmod +x install.sh
           ./install.sh --accept-all-defaults
-          echo "/home/runner/bin" >> $GITHUB_PATH
+          echo "::add-path::/home/runner/bin"
           exec -l $SHELL
           oci setup repair-file-permissions --file /home/runner/.oci/config
           oci setup repair-file-permissions --file /home/runner/.oci/key.pem
+      - name: 'CHECK OCI INSTALLED?!'
+        run: oci -v
       - uses: actions-hub/kubectl@master
         env:
           KUBE_CONFIG: ${{ secrets.KUBE_CONFIG_DATA }}
