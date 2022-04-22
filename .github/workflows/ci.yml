@@ -40,6 +40,18 @@ jobs:
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
           push: true
+      - name: 'Install OCI CLI'
+        run: |
+          mkdir ~/.oci
+          echo "${{ secrets.ORACLE_CONFIG }}" > ~/.oci/config
+          echo "${{ secrets.API_KEY_PEM }}" > ~/.oci/key.pem
+          curl -L -O https://raw.githubusercontent.com/oracle/oci-cli/master/scripts/install/install.sh
+          chmod +x install.sh
+          ./install.sh --accept-all-defaults
+          echo "/home/runner/bin" >> $GITHUB_PATH
+          exec -l $SHELL
+          oci setup repair-file-permissions --file /home/runner/.oci/config
+          oci setup repair-file-permissions --file /home/runner/.oci/key.pem
       - name: Kubernete
         uses: Consensys/kubernetes-action@master
         env:
