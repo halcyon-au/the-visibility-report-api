@@ -52,10 +52,14 @@ jobs:
           exec -l $SHELL
           oci setup repair-file-permissions --file /home/runner/.oci/config
           oci setup repair-file-permissions --file /home/runner/.oci/key.pem
-      - name: Kubernete
-        uses: Consensys/kubernetes-action@master
-        env:
-          KUBE_CONFIG_DATA: ${{ secrets.KUBE_CONFIG_DATA }}
-        with:
-          args: get pods
+      - name: 'Install kubectl'
+        run: |
+          mkdir /tmp/.kube
+          curl -L -O "https://dl.k8s.io/release/v1.22.4/bin/linux/amd64/kubectl" -o kubectl
+          chmod +x kubectl
+          mv kubectl /usr/local/bin
+          echo "${{ secrets.KUBE_CONFIG_DATA }}" > /tmp/.kube/config
+          echo "KUBE_CONFIG_DATA=/tmp/.kube/config" >> $GITHUB_ENV
+      - name: 'Currently running services'
+        run: kubectl get pods
         
