@@ -3,5 +3,245 @@
     "info": {
         "contact": {}
     },
-    "paths": {}
+    "paths": {
+        "/api/v1/blocked/{countryname}/{website}": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "websites"
+                ],
+                "summary": "Find closest block to website for countryname",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Country Name",
+                        "name": "country",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "Website",
+                        "name": "website",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/controllers.GetBlockedResponse"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/countries/rankings": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "rankings"
+                ],
+                "summary": "Retrieve All Countries Ranked (Lower the number the worse)",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "array",
+                            "items": {
+                                "$ref": "#/definitions/controllers.CountryScore"
+                            }
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/countries/{country}": {
+            "get": {
+                "description": "Get ranking details by country",
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "rankings"
+                ],
+                "summary": "Retrieve Country Details",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Country Name",
+                        "name": "country",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/controllers.CountryScoreWBlocked"
+                        }
+                    },
+                    "500": {
+                        "description": "Internal Server Error",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/hb": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "health"
+                ],
+                "summary": "Perform a Hearbeat",
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/api/v1/status/{countryname}/{website}": {
+            "get": {
+                "produces": [
+                    "application/json"
+                ],
+                "tags": [
+                    "websites"
+                ],
+                "summary": "Find closest block to website for countryname",
+                "parameters": [
+                    {
+                        "type": "string",
+                        "description": "Country Name",
+                        "name": "country",
+                        "in": "path",
+                        "required": true
+                    },
+                    {
+                        "type": "string",
+                        "description": "Website",
+                        "name": "website",
+                        "in": "path",
+                        "required": true
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "OK",
+                        "schema": {
+                            "$ref": "#/definitions/controllers.GetStatusResponse"
+                        }
+                    },
+                    "400": {
+                        "description": "Bad Request",
+                        "schema": {
+                            "type": "object",
+                            "additionalProperties": {
+                                "type": "string"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "definitions": {
+        "controllers.CountryScore": {
+            "type": "object",
+            "properties": {
+                "countryName": {
+                    "type": "string"
+                },
+                "ranking": {
+                    "type": "integer"
+                },
+                "score": {
+                    "type": "integer"
+                }
+            }
+        },
+        "controllers.CountryScoreWBlocked": {
+            "type": "object",
+            "properties": {
+                "blockedWebsites": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "countryName": {
+                    "type": "string"
+                },
+                "possibleWebsites": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "ranking": {
+                    "type": "integer"
+                },
+                "score": {
+                    "type": "integer"
+                },
+                "unblockedWebsites": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                },
+                "websites": {
+                    "type": "array",
+                    "items": {
+                        "type": "string"
+                    }
+                }
+            }
+        },
+        "controllers.GetBlockedResponse": {
+            "type": "object"
+        },
+        "controllers.GetStatusResponse": {
+            "type": "object"
+        }
+    }
 }
