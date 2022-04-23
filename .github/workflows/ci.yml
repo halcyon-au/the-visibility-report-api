@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-  pull_request:
 
 concurrency:
   group: environment-${{ github.ref }}-${{ github.workflow }}
@@ -49,29 +48,29 @@ jobs:
           region: "${{ secrets.OCI_REGION }}"
           api_key: ${{ secrets.OCI_API_KEY }}
           verbose: true
-      - name: 'Install kubectl'
+      - name: "Install kubectl"
         run: |
           mkdir /tmp/.kube
           curl -L -O "https://dl.k8s.io/release/v1.22.4/bin/linux/amd64/kubectl" -o kubectl
           chmod +x kubectl
           mv kubectl /usr/local/bin
-      - name: 'Setup OKE'
+      - name: "Setup OKE"
         run: |
           oci ce cluster create-kubeconfig --cluster-id ocid1.cluster.oc1.ap-sydney-1.aaaaaaaaiikepc65trfdfm5ywmldob34jcllkifaiifo634hecxa5aq3v3jq --file $HOME/.kube/config --region ap-sydney-1 --token-version 2.0.0  --kube-endpoint PUBLIC_ENDPOINT
           export KUBECONFIG=$HOME/.kube/config
-      - name: '🔧 Apply Infrastructure - Database 🔧'
+      - name: "🔧 Apply Infrastructure - Database 🔧"
         run: |
           kubectl apply -f kubernetes/mongo-pvc.yaml
           kubectl apply -f kubernetes/mongo-deployment.yaml
           kubectl apply -f kubernetes/mongo-service.yaml
-      - name: '🔧 Apply Infrastructure - API 🔧'
+      - name: "🔧 Apply Infrastructure - API 🔧"
         run: |
           kubectl apply -f kubernetes/api-deployment.yaml
           kubectl apply -f kubernetes/api-service.yaml
           kubectl apply -f kubernetes/api-issuer.yaml
           kubectl apply -f kubernetes/api-ingress.yaml
-      - name: '🔧 Apply Infrastructure - Worker 🔧'
+      - name: "🔧 Apply Infrastructure - Worker 🔧"
         run: |
           kubectl apply -f kubernetes/worker-deployment.yaml
-      - name: '🚀 Test Kubernetes 🚀'
+      - name: "🚀 Test Kubernetes 🚀"
         run: kubectl get pods

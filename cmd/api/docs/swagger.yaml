@@ -1,0 +1,179 @@
+definitions:
+  controllers.CountryScore:
+    properties:
+      countryName:
+        type: string
+      ranking:
+        type: integer
+      score:
+        type: integer
+    type: object
+  controllers.CountryScoreWBlocked:
+    properties:
+      blockedWebsites:
+        items:
+          type: string
+        type: array
+      countryName:
+        type: string
+      possibleWebsites:
+        items:
+          type: string
+        type: array
+      ranking:
+        type: integer
+      score:
+        type: integer
+      unblockedWebsites:
+        items:
+          type: string
+        type: array
+      websites:
+        items:
+          type: string
+        type: array
+    type: object
+  controllers.GetBlockedResponse:
+    properties:
+      isBlocked:
+        type: boolean
+      matchedWith:
+        type: string
+      similarity:
+        type: number
+    type: object
+  controllers.GetStatusResponse:
+    properties:
+      isBlocked:
+        type: boolean
+      matchedWith:
+        type: string
+      similarity:
+        type: number
+      status:
+        type: string
+    type: object
+info:
+  contact: {}
+  title: The Visibility Report API
+  version: "1.0"
+paths:
+  /api/v1/blocked/{countryname}/{website}:
+    get:
+      parameters:
+      - description: Country Name
+        in: path
+        name: countryname
+        required: true
+        type: string
+      - description: Website
+        in: path
+        name: website
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.GetBlockedResponse'
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Find closest block to website for countryname
+      tags:
+      - websites
+  /api/v1/countries/rankings:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            items:
+              $ref: '#/definitions/controllers.CountryScore'
+            type: array
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Retrieve All Countries Ranked (Lower the number the worse)
+      tags:
+      - rankings
+  /api/v1/countries/rankings/{country}:
+    get:
+      description: Get ranking details by country
+      parameters:
+      - description: Country Name
+        in: path
+        name: country
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.CountryScoreWBlocked'
+        "500":
+          description: Internal Server Error
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Retrieve Country Details
+      tags:
+      - rankings
+  /api/v1/hb:
+    get:
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: Perform a Hearbeat
+      tags:
+      - health
+  /api/v1/status/{countryname}/{website}:
+    get:
+      parameters:
+      - description: Country Name
+        in: path
+        name: countryname
+        required: true
+        type: string
+      - description: Website
+        in: path
+        name: website
+        required: true
+        type: string
+      produces:
+      - application/json
+      responses:
+        "200":
+          description: OK
+          schema:
+            $ref: '#/definitions/controllers.GetStatusResponse'
+        "400":
+          description: Bad Request
+          schema:
+            additionalProperties:
+              type: string
+            type: object
+      summary: find closest match to website for countryname, if there is match in
+        blocked/unblocked return blocked/unblocked else return unknown
+      tags:
+      - websites
+swagger: "2.0"

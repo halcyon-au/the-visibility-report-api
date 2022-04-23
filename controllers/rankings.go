@@ -47,18 +47,18 @@ type WebsiteNetworksResponse struct {
 	Results []map[string]interface{}
 }
 type CountryScore struct {
-	CountryName string
-	Score       int
-	Ranking     int
+	CountryName string `json:"countryName"`
+	Score       int    `json:"score"`
+	Ranking     int    `json:"ranking"`
 }
 type CountryScoreWBlocked struct {
-	CountryName       string
-	Score             int
-	Ranking           int
-	BlockedWebsites   []string
-	UnblockedWebsites []string
-	PossibleWebsites  []string
-	Websites          []string
+	CountryName       string   `json:"countryName"`
+	Score             int      `json:"score"`
+	Ranking           int      `json:"ranking"`
+	BlockedWebsites   []string `json:"blockedWebsites"`
+	UnblockedWebsites []string `json:"unblockedWebsites"`
+	PossibleWebsites  []string `json:"possibleWebsites"`
+	Websites          []string `json:"websites"`
 }
 type WebsiteNetwork struct {
 	Count     int
@@ -244,6 +244,13 @@ func RankingsRoutine(exitChannel chan os.Signal) {
 	log.Printf("Rankings Routine Ended, It Took %s, Sleeping for %sms\n", elapsed.String(), ROUTINE_TIME.String())
 }
 
+// GetRankings godoc
+// @Summary  Retrieve All Countries Ranked (Lower the number the worse)
+// @Tags     rankings
+// @Produce  json
+// @Success  200  {object}  []CountryScore
+// @Failure  500  {object}  map[string]string
+// @Router   /api/v1/countries/rankings [get]
 func getRankings() echo.HandlerFunc {
 	return func(c echo.Context) error {
 		scores, err := GetScores()
@@ -257,6 +264,15 @@ func getRankings() echo.HandlerFunc {
 	}
 }
 
+// GetRankingByCountry godoc
+// @Summary      Retrieve Country Details
+// @Tags         rankings
+// @Description  Get ranking details by country
+// @Produce      json
+// @Param        country  path      string  true  "Country Name"
+// @Success      200      {object}  CountryScoreWBlocked
+// @Failure      500      {object}  map[string]string
+// @Router       /api/v1/countries/rankings/{country} [get]
 func getRanking() echo.HandlerFunc {
 	return func(c echo.Context) error {
 		cName := c.Param("country")
@@ -270,7 +286,7 @@ func getRanking() echo.HandlerFunc {
 
 func Rankings(e *echo.Echo) {
 	log.Println("🚀 /api/v1/countries/rankings - GET - Retrieve All Countries Ranked (Lower the number the worse)")
-	log.Println("🚀 /api/v1/countries/{country: string} - GET - Retrieve Country Details")
+	log.Println("🚀 /api/v1/countries/rankings/{country: string} - GET - Retrieve Country Details")
 	e.GET("/api/v1/countries/rankings", getRankings())
 	e.GET("/api/v1/countries/rankings/:country", getRanking())
 }
