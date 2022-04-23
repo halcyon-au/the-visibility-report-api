@@ -1,10 +1,10 @@
 #!/bin/sh
 if [ "$1" = "worker" ]; then
   cd ./cmd/worker
-  go build -buildvcs=false .
+  go build .
   ./worker
 else
   cd ./cmd/api
-  go build -buildvcs=false .
+  go build .
   ./api
 fi
