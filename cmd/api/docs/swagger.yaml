@@ -50,6 +50,8 @@ definitions:
         type: string
       similarity:
         type: number
+      status:
+        type: string
     type: object
 info:
   contact: {}

@@ -274,6 +274,9 @@ const docTemplate = `{
                 },
                 "similarity": {
                     "type": "number"
+                },
+                "status": {
+                    "type": "string"
                 }
             }
         }
