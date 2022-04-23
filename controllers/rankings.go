@@ -119,6 +119,13 @@ func processCountry(country Country, scores chan ProcessCountryChannelStruct, CO
 	defer func() {
 		if r := recover(); r != nil {
 			log.Printf("error in processing country: %s, panic error: %v\n", country.Name, r)
+			scores <- ProcessCountryChannelStruct{
+				CountryScore:      CountryScore{CountryName: country.Name, Score: 0},
+				BlockedWebsites:   []string{},
+				UnblockedWebsites: []string{},
+				PossibleWebsites:  []string{},
+				Websites:          []string{},
+			}
 		}
 	}()
 	log.Printf("Country Worker Started For Country: %s\n", country.Name)
