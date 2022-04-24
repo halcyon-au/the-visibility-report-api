@@ -7,6 +7,7 @@ import (
 	"io"
 	"log"
 	"math"
+	"math/rand"
 	"net/http"
 	"os"
 	"os/signal"
@@ -115,16 +116,30 @@ func processWebsite(wSiteStruct map[string]interface{}) (WebsiteStatus, error) {
 }
 
 // TODO: Exponential Backoff with Circuit Breaker pattern
-func processCountry(country Country, scores chan ProcessCountryChannelStruct, COMMON_WEBSITES []string) {
+func processCountry(country Country, scores chan ProcessCountryChannelStruct, COMMON_WEBSITES []string, retryCount uint8) {
 	defer func() {
 		if r := recover(); r != nil {
 			log.Printf("error in processing country: %s, panic error: %v\n", country.Name, r)
-			scores <- ProcessCountryChannelStruct{
-				CountryScore:      CountryScore{CountryName: country.Name, Score: 0},
-				BlockedWebsites:   []string{},
-				UnblockedWebsites: []string{},
-				PossibleWebsites:  []string{},
-				Websites:          []string{},
+			if retryCount > 50 { // try 50 times
+				log.Printf("error in processing country: %s, (error: %v), more then 3 times, I am not going to retry just returning empty values", country.Name, r)
+				scores <- ProcessCountryChannelStruct{
+					CountryScore:      CountryScore{CountryName: country.Name, Score: 0},
+					BlockedWebsites:   []string{},
+					UnblockedWebsites: []string{},
+					PossibleWebsites:  []string{},
+					Websites:          []string{},
+				}
+			} else {
+				// my brain isnt working rn this is supposed to be exponential backoff with jitter but its not
+				cap := math.Min(
+					60000, // Wait 60 seconds at most
+					math.Pow(float64(retryCount), 2)*100,
+				)
+				sleepMS := math.Min(cap, 100+rand.Float64()*(60000-100))
+				log.Printf("error in processing country: %s, retrying in %f ms", country.Name, sleepMS)
+				time.AfterFunc(time.Duration(sleepMS*float64(time.Millisecond)), func() {
+					processCountry(country, scores, COMMON_WEBSITES, retryCount+1)
+				})
 			}
 		}
 	}()
@@ -216,7 +231,7 @@ func RankingsRoutine(exitChannel chan os.Signal) {
 	scores := make(chan ProcessCountryChannelStruct)
 	processArr := []ProcessCountryChannelStruct{}
 	for _, country := range countries.Countries {
-		go processCountry(country, scores, common_websites)
+		go processCountry(country, scores, common_websites, 1)
 	}
 	for range countries.Countries {
 		log.Println("Waiting On Country Processing Routine...")
